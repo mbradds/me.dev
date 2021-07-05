@@ -4,9 +4,85 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
     <title>Grant Moss</title>
   </head>
   <body>
-    <h1>Grant Moss - Personal Website</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="main-tab" href="#">Grant Moss</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+              class="nav-link active"
+              id="about-tab"
+              aria-current="page"
+              href="#about"
+              onclick="openTab(event, 'about')"
+              >About Me</a
+            >
+            <a
+              class="nav-link"
+              id="work-tab"
+              href="#work"
+              onclick="openTab(event, 'work')"
+              >Work Projects</a
+            >
+            <a
+              class="nav-link"
+              id="personal-tab"
+              href="#personal"
+              onclick="openTab(event, 'personal')"
+              >Personal Projects</a
+            >
+            <a
+              class="nav-link"
+              id="blog-tab"
+              href="#blog"
+              onclick="openTab(event, 'blog')"
+              >Blog</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="section section-show" id="about">
+      <h3>About me!!!</h3>
+    </div>
+    <div class="section section-hide" id="work">
+      <h3>My Work!</h3>
+    </div>
+    <div class="section section-hide" id="personal">
+      <h3>My projects!</h3>
+    </div>
+    <div class="section section-hide" id="blog">
+      <h3>Coming soon!</h3>
+    </div>
+    <script>
+      function openTab(evt, sectionName) {
+        var i, tabcontent, tablinks;
+        var sections = document.querySelectorAll(".section");
+        for (var s = 0; s < sections.length; s++) {
+          sections[s].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("nav-link");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(sectionName).style.display = "block";
+        evt.target.className += " active";
+      }
+    </script>
   </body>
 </html>
