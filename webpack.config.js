@@ -36,7 +36,7 @@ module.exports = {
       filename: `index.html`,
       chunks: [`index`],
       chunksSortMode: "auto",
-      template: "src/index.html",
+      template: "src/index.hbs",
       minify: {
         collapseWhitespace: true,
         keepClosingSlash: false,
@@ -65,6 +65,14 @@ module.exports = {
       {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.hbs$/,
+        loader: "handlebars-loader",
+        options: {
+          precompileOptions: { noEscape: true, strict: true },
+          // runtime: path.resolve(__dirname, "src/components/helpers.js"),
+        },
       },
     ],
   },

@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./main.css" />
-    <title>Grant Moss</title>
+    {{> components/head}}
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" id="main-tab" href="#">Grant Moss</a>
+        <a class="navbar-brand" id="main-tab">Grant Moss</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -53,36 +49,31 @@
               onclick="openTab(event, 'blog')"
               >Blog</a
             >
+            <a
+              class="nav-link"
+              id="blog-tab"
+              href="#resume"
+              onclick="openTab(event, 'resume')"
+              >Resume</a
+            >
           </div>
         </div>
       </div>
     </nav>
     <div class="section section-show" id="about">
-      <h3>About me!!!</h3>
+      {{> components/about}}
     </div>
     <div class="section section-hide" id="work">
-      <h3>My Work!</h3>
+      {{> components/work}}
     </div>
     <div class="section section-hide" id="personal">
-      <h3>My projects!</h3>
+      {{> components/personal}}
     </div>
     <div class="section section-hide" id="blog">
-      <h3>Coming soon!</h3>
+      {{> components/blog}}
     </div>
-    <script>
-      function openTab(evt, sectionName) {
-        var i, tabcontent, tablinks;
-        var sections = document.querySelectorAll(".section");
-        for (var s = 0; s < sections.length; s++) {
-          sections[s].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("nav-link");
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(sectionName).style.display = "block";
-        evt.target.className += " active";
-      }
-    </script>
+    <div class="section section-hide" id="resume">
+      {{> components/resume}}
+    </div>
   </body>
 </html>
