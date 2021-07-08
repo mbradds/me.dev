@@ -45,8 +45,17 @@ function openTab(evt, sectionName) {
 
 function loadArticles() {
   let articleListHtml = ``;
+  let [minorCount, majorCount] = [0, 0];
   articleInfo.forEach((page) => {
-    articleListHtml += `<div class="alert alert-primary mb-4" role="alert">
+    let colorClass = "alert-secondary";
+    if (page.type === "minor") {
+      colorClass = "alert-secondary";
+      minorCount += 1;
+    } else if (page.type === "major") {
+      colorClass = "alert-success";
+      majorCount += 1;
+    }
+    articleListHtml += `<div class="alert ${colorClass} mb-4" role="alert">
     <h4 class="alert-heading mb-3">${page.name}</h4>
     <p class="lead">Keywords: ${page.keyWords}</p>`;
     if (page.note) {
@@ -65,6 +74,12 @@ function loadArticles() {
   });
 
   document.getElementById("articles-flags").innerHTML = articleListHtml;
+  document.getElementById(
+    "minor-articles-count"
+  ).innerHTML = `<strong>${minorCount}</strong> minor articles released`;
+  document.getElementById(
+    "major-articles-count"
+  ).innerHTML = `<strong>${majorCount}</strong> major articles released`;
 }
 
 function meOnLoad() {
