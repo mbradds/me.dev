@@ -3,8 +3,30 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min";
 import articleInfo from "./articles.json";
 
 function openTab(evt, sectionName) {
+  evt.preventDefault(); // stops the page from autoscrolling to fit tab content.
   const sections = document.querySelectorAll(".section");
   const tablinks = document.getElementsByClassName("nav-link");
+  const requestedSectionId = evt.target.id;
+
+  // unselect work dropdowns when moving to other tabs.
+  if (
+    requestedSectionId !== "work-articles-tab" &&
+    requestedSectionId !== "work-software-tab"
+  ) {
+    document.querySelectorAll(".dropdown-item").forEach((drop) => {
+      const d = drop;
+      d.className = d.className.replace(" active", "");
+    });
+  }
+
+  // only allow one drop down tab to be "active"
+  if (requestedSectionId === "work-articles-tab") {
+    document.getElementById("work-software-tab").classList.remove("active");
+  }
+
+  if (requestedSectionId === "work-software-tab") {
+    document.getElementById("work-articles-tab").classList.remove("active");
+  }
 
   sections.forEach((section) => {
     const s = section;
@@ -18,6 +40,7 @@ function openTab(evt, sectionName) {
   document.getElementById(sectionName).style.display = "block";
   const e = evt;
   e.target.className += " active";
+  return false;
 }
 
 function loadArticles() {
