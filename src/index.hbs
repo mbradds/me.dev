@@ -19,49 +19,82 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a
-              class="nav-link active"
-              id="about-tab"
-              aria-current="page"
-              href="#about"
-              onclick="openTab(event, 'about')"
-              >About Me</a
-            >
-            <a
-              class="nav-link"
-              id="work-tab"
-              href="#work"
-              onclick="openTab(event, 'work')"
-              >Work Projects</a
-            >
-            <a
-              class="nav-link"
-              id="personal-tab"
-              href="#personal"
-              onclick="openTab(event, 'personal')"
-              >Personal Projects</a
-            >
-            <a
-              class="nav-link"
-              id="blog-tab"
-              href="#blog"
-              onclick="openTab(event, 'blog')"
-              >Blog</a
-            >
-            <a
-              class="nav-link"
-              id="blog-tab"
-              href="#resume"
-              onclick="openTab(event, 'resume')"
-              >Resume</a
-            >
-          </div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                id="about-tab"
+                aria-current="page"
+                href="#about"
+                onclick="openTab(event, 'about')"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Work Projects
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    id="work-articles-tab"
+                    href="#work-articles"
+                    onclick="openTab(event, 'work-articles')"
+                    >Published articles</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    id="work-software-tab"
+                    href="#work-software"
+                    onclick="openTab(event, 'work-software')"
+                    >Software & Data</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="personal-tab"
+                href="#personal"
+                onclick="openTab(event, 'personal')"
+                >Personal Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="blog-tab"
+                href="#blog"
+                onclick="openTab(event, 'blog')"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="blog-tab"
+                href="#resume"
+                onclick="openTab(event, 'resume')"
+                >Resume</a
+              >
+            </li>
+          </ul>
         </div>
         <button
           type="button"
           class="btn btn-secondary"
-          style="margin-right: 10px;"
+          style="margin-right: 10px"
           onclick=" window.open('https://github.com/mbradds','_blank')"
         >
           <svg
@@ -77,10 +110,10 @@
             ></path>
           </svg>
         </button>
-        <button 
-          type="button" 
+        <button
+          type="button"
           class="btn btn-secondary"
-          style="margin-right: 10px;"
+          style="margin-right: 10px"
           onclick=" window.open('https://www.linkedin.com/in/grant-m-a9290391/','_blank')"
         >
           <svg
@@ -119,8 +152,11 @@
     <div class="section section-show" id="about">
       {{> components/about}}
     </div>
-    <div class="section section-hide" id="work">
-      {{> components/work}}
+    <div class="section section-hide" id="work-articles">
+      {{> components/work-articles}}
+    </div>
+    <div class="section section-hide" id="work-software">
+      {{> components/work-software}}
     </div>
     <div class="section section-hide" id="personal">
       {{> components/personal}}

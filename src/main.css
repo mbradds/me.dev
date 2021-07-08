@@ -4,3 +4,10 @@
 .section-show {
   display: block;
 }
+p {
+  font-size: 20px !important;
+  line-height: 1.65em !important;
+}
+.articles-list p {
+  line-height: 0.8em !important;
+}
