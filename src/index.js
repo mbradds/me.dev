@@ -1,6 +1,7 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min";
 import articleInfo from "./articles.json";
+
+require("./main.css");
 
 function openTab(evt, sectionName) {
   evt.preventDefault(); // stops the page from autoscrolling to fit tab content.

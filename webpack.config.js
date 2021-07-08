@@ -1,7 +1,8 @@
 const path = require("path");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
-const CopyWebpackPlugin = require("copy-webpack-plugin");
+// const CopyWebpackPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   // mode: "development",
@@ -23,13 +24,16 @@ module.exports = {
   devtool: false,
 
   plugins: [
-    new CopyWebpackPlugin({
-      patterns: [
-        {
-          from: path.resolve(__dirname, "src", "main.css"),
-          to: path.resolve(__dirname, "dist", "main.css"),
-        },
-      ],
+    // new CopyWebpackPlugin({
+    //   patterns: [
+    //     {
+    //       from: path.resolve(__dirname, "src", "main.css"),
+    //       to: path.resolve(__dirname, "dist", "main.css"),
+    //     },
+    //   ],
+    // }),
+    new MiniCssExtractPlugin({
+      filename: "css/main.[contenthash].css",
     }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
@@ -63,7 +67,13 @@ module.exports = {
         },
       },
       {
+        test: /\.css$/i,
+        exclude: /node_modules/,
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
+      },
+      {
         test: /\.css$/,
+        include: /node_modules/,
         use: ["style-loader", "css-loader"],
       },
       {
