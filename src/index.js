@@ -68,7 +68,7 @@ function loadArticles() {
         href="${page.link}"
         target="_blank"
       >Read in new tab</a>
-      <span>Release Date: ${page.releaseDate}</span>
+      <span>Release Date: <strong>${page.releaseDate}</strong></span>
     </div>
   </div>`;
   });
