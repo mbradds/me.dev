@@ -1,5 +1,6 @@
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min";
-import articleInfo from "./articles.json";
+import articleInfo from "./data/articles.json";
+import codingInfo from "./data/programming.json";
 
 require("./main.css");
 
@@ -83,9 +84,56 @@ function loadArticles() {
   ).innerHTML = `<strong>${majorCount}</strong> major articles released`;
 }
 
+function loadCodingWork() {
+  const languageColors = {
+    JavaScript: "#f1e05a",
+    Python: "#3572A5",
+    Handlebars: "#f7931e",
+    CSS: "#563d7c",
+    HTML: "#e34c26",
+    TSQL: "#ccc",
+    Shell: "#89e051",
+  };
+  let codeListHtml = ``;
+  codingInfo.forEach((project) => {
+    codeListHtml += `<div class="card">`;
+    codeListHtml += `<div class="card-body">`;
+    codeListHtml += `<div class="d-flex justify-content-between">`;
+    codeListHtml += `<h3 class="card-title">${project.title}</h3>`;
+    codeListHtml += `<div>`;
+    project.links.forEach((link, i) => {
+      if (i === project.links.length - 1) {
+        codeListHtml += `<a class="link-divider-last" href="${link[1]}" target="_blank"><span>${link[0]}</span></a>`;
+      } else {
+        codeListHtml += `<a class="link-divider" href="${link[1]}" target="_blank"><span>${link[0]}</span></a>`;
+      }
+    });
+    codeListHtml += `</div>`;
+    codeListHtml += `</div>`;
+    codeListHtml += `<h6 class="card-subtitle mb-2 text-muted">${project.role}</h6>`;
+    project.text.forEach((p) => {
+      codeListHtml += `<p class="card-text"> ${p}</p>`;
+    });
+    codeListHtml += `</div>`;
+    codeListHtml += `<ul class="list-group list-group-flush">`;
+    codeListHtml += `<li class="list-group-item">Languages:&nbsp;&nbsp;&nbsp;`;
+    project.languages.forEach((lang) => {
+      codeListHtml += `<span style="color:${languageColors[lang]};">&#11044;&nbsp;</span><span>${lang}</span>&nbsp;&nbsp;`;
+    });
+    codeListHtml += `</li>`;
+    codeListHtml += `<li class="list-group-item">Frameworks:&nbsp;${project.frameworks}`;
+    codeListHtml += `</ul>`;
+    codeListHtml += `</div>`;
+    codeListHtml += `</div>`;
+  });
+
+  document.getElementById("work-coding-projects-list").innerHTML = codeListHtml;
+}
+
 function meOnLoad() {
   window.openTab = openTab;
   loadArticles();
+  loadCodingWork();
 }
 
 meOnLoad();

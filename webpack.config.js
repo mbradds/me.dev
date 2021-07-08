@@ -1,6 +1,5 @@
 const path = require("path");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
-// const CopyWebpackPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
@@ -24,14 +23,6 @@ module.exports = {
   devtool: false,
 
   plugins: [
-    // new CopyWebpackPlugin({
-    //   patterns: [
-    //     {
-    //       from: path.resolve(__dirname, "src", "main.css"),
-    //       to: path.resolve(__dirname, "dist", "main.css"),
-    //     },
-    //   ],
-    // }),
     new MiniCssExtractPlugin({
       filename: "css/main.[contenthash].css",
     }),

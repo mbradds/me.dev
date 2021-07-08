@@ -12,3 +12,15 @@ p {
 .articles-list p {
   line-height: 1.25em !important;
 }
+.link-divider {
+  border-right: 3px solid gray;
+  margin-right: 3px;
+}
+.link-divider-last {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+.link-divider span {
+  margin-right: 6px;
+  margin-left: 3px;
+}

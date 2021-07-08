@@ -1,0 +1,25 @@
+[
+  {
+    "title": "pipeline-profiles",
+    "links": [
+      ["GitHub Repository", ""],
+      ["Heroku WebApp", ""],
+      ["Production Site", ""]
+    ],
+    "role": "Creator, lead-designer, lead-developer",
+    "text": [
+      "Major technology initative adding new data-visualization, interactivity, and safety & environment content to the CER's highly popular pipeline profiles webpages. Previous to this, we relied on tableau (not the right tool for the job) to share data externally. The tableau was very slow, didnt always work, and required alot of manual work. Switching to the JavaScript ecosystem has allowed for previously impossible interactivity, such as allowing the user to find pipeline incidents near them on a leaflet map.",
+      "With over 500 commits, this is my largest JavaScript project to date. I've worked hard on the code to make it easily maintainable and general purpose into the future."
+    ],
+    "languages": [
+      "JavaScript",
+      "Python",
+      "Handlebars",
+      "CSS",
+      "HTML",
+      "TSQL",
+      "Shell"
+    ],
+    "frameworks": "Highcharts, Leaflet, Web Experience Toolkit"
+  }
+]
