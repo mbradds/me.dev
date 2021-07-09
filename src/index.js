@@ -49,16 +49,18 @@ function loadArticles() {
   let articleListHtml = ``;
   let [minorCount, majorCount] = [0, 0];
   articleInfo.forEach((page) => {
-    let colorClass = "alert-secondary";
+    let colorClass = "text-secondary";
+    let articleType = "Market Snapshot";
     if (page.type === "minor") {
-      colorClass = "alert-secondary";
       minorCount += 1;
     } else if (page.type === "major") {
-      colorClass = "alert-success";
+      colorClass = "text-success";
+      articleType = "Major Report";
       majorCount += 1;
     }
-    articleListHtml += `<div class="alert ${colorClass} mb-4" role="alert">
-    <h4 class="alert-heading mb-3">${page.name}</h4>
+    articleListHtml += `<div class="card mb-4"><div class="card-body">
+    <h4 class="card-title mb-3">${page.name}</h4>
+    <h6 class="card-subtitle mb-2 ${colorClass}">${articleType}</h6>
     <p class="lead">Keywords: ${page.keyWords}</p>`;
     if (page.note) {
       articleListHtml += `<p class="lead">Note: ${page.note}</p>`;
@@ -71,17 +73,17 @@ function loadArticles() {
         target="_blank"
       >Read in new tab</a>
       <span>Release Date: <strong>${page.releaseDate}</strong></span>
-    </div>
+    </div></div>
   </div>`;
   });
 
   document.getElementById("articles-flags").innerHTML = articleListHtml;
   document.getElementById(
     "minor-articles-count"
-  ).innerHTML = `<strong>${minorCount}</strong> minor articles released`;
+  ).innerHTML = `<strong>${minorCount}</strong> Market Snapshots released`;
   document.getElementById(
     "major-articles-count"
-  ).innerHTML = `<strong>${majorCount}</strong> major articles released`;
+  ).innerHTML = `<strong>${majorCount}</strong> Major Reports released`;
 }
 
 function loadCodingWork() {
@@ -96,7 +98,7 @@ function loadCodingWork() {
   };
   let codeListHtml = ``;
   codingInfo.forEach((project) => {
-    codeListHtml += `<div class="card">`;
+    codeListHtml += `<div class="card mb-4">`;
     codeListHtml += `<div class="card-body">`;
     codeListHtml += `<div class="d-flex justify-content-between">`;
     codeListHtml += `<h3 class="card-title">${project.title}</h3>`;
@@ -116,12 +118,12 @@ function loadCodingWork() {
     });
     codeListHtml += `</div>`;
     codeListHtml += `<ul class="list-group list-group-flush">`;
+    codeListHtml += `<li class="list-group-item">Frameworks:&nbsp;${project.frameworks}</li>`;
     codeListHtml += `<li class="list-group-item">Languages:&nbsp;&nbsp;&nbsp;`;
     project.languages.forEach((lang) => {
       codeListHtml += `<span style="color:${languageColors[lang]};">&#11044;&nbsp;</span><span>${lang}</span>&nbsp;&nbsp;`;
     });
     codeListHtml += `</li>`;
-    codeListHtml += `<li class="list-group-item">Frameworks:&nbsp;${project.frameworks}`;
     codeListHtml += `</ul>`;
     codeListHtml += `</div>`;
     codeListHtml += `</div>`;

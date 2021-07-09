@@ -2,14 +2,17 @@
   {
     "title": "pipeline-profiles",
     "links": [
-      ["GitHub Repository", ""],
-      ["Heroku WebApp", ""],
-      ["Production Site", ""]
+      ["GitHub Repository", "https://github.com/mbradds/pipeline-profiles"],
+      ["Heroku WebApp", "https://pipeline-profiles.herokuapp.com/"],
+      [
+        "Production Site",
+        "https://www.cer-rec.gc.ca/en/data-analysis/facilities-we-regulate/pipeline-profiles/index.html"
+      ]
     ],
     "role": "Creator, lead-designer, lead-developer",
     "text": [
       "Major technology initative adding new data-visualization, interactivity, and safety & environment content to the CER's highly popular pipeline profiles webpages. Previous to this, we relied on tableau (not the right tool for the job) to share data externally. The tableau was very slow, didnt always work, and required alot of manual work. Switching to the JavaScript ecosystem has allowed for previously impossible interactivity, such as allowing the user to find pipeline incidents near them on a leaflet map.",
-      "With over 500 commits, this is my largest JavaScript project to date. I've worked hard on the code to make it easily maintainable and general purpose into the future."
+      "With over 500 commits, this is my largest software/data project to date. I've worked hard on the code to make it easily maintainable and general purpose into the future."
     ],
     "languages": [
       "JavaScript",
@@ -21,5 +24,41 @@
       "Shell"
     ],
     "frameworks": "Highcharts, Leaflet, Web Experience Toolkit"
+  },
+  {
+    "title": "transportation-report",
+    "links": [
+      ["GitHub Repository", "https://github.com/mbradds/transportation-report"],
+      ["Github Pages", "https://mbradds.github.io/transportation-report/"],
+      [
+        "Production Site",
+        "https://www.cer-rec.gc.ca/en/data-analysis/facilities-we-regulate/canadas-pipeline-system/2021/index.html"
+      ]
+    ],
+    "role": "Lead-developer, data-analyst, data-viz designer",
+    "text": [
+      "My first major JavaScript/web-development project. This was a major initiative, and the first report released by the CER to feature JavaScript based interactive charts.",
+      "With 27 individual dashboards, many featuring advanced functionaltiy with multiple charts, maps, and filters, this one was a challenge. I put in alot of effort to ensure that the charts loaded fast in both official languages."
+    ],
+    "languages": ["JavaScript", "HTML", "Python", "CSS", "Shell", "TSQL"],
+    "frameworks": "Highcharts, Web Experience Toolkit"
+  },
+  {
+    "title": "crude-runs",
+    "links": [
+      ["GitHub Repository", "https://github.com/mbradds/crude-runs"],
+      ["Heroku WebApp", "https://crude-runs.herokuapp.com/"],
+      [
+        "Production Site",
+        "https://www.cer-rec.gc.ca/en/data-analysis/energy-commodities/crude-oil-petroleum-products/statistics/weekly-crude-run-summary-data.html"
+      ]
+    ],
+    "role": "Lead-developer & designer",
+    "text": [
+      "Clean, east to use dashboard showcasing the CER's crude runs dataset.",
+      "This dashboard is a replacement of a previous version done in tableau. This one is obviously much faster, more responsive & professional. By switching from Tableau to JavaScript, the total network transfer size of the page dropped by 87% (from 4500KB to 596KB), massively improving the experience for users."
+    ],
+    "languages": ["JavaScript", "CSS", "Handlebars", "Python", "HTML", "Shell"],
+    "frameworks": "Highcharts, Web Experience Toolkit"
   }
 ]
