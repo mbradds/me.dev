@@ -116,15 +116,15 @@ function loadCodingWork() {
     project.text.forEach((p) => {
       codeListHtml += `<p class="card-text"> ${p}</p>`;
     });
-    codeListHtml += `</div>`;
-    codeListHtml += `<ul class="list-group list-group-flush">`;
-    codeListHtml += `<li class="list-group-item">Frameworks:&nbsp;${project.frameworks}</li>`;
-    codeListHtml += `<li class="list-group-item">Languages:&nbsp;&nbsp;&nbsp;`;
+    codeListHtml += `<hr />`;
+    codeListHtml += `<span>Frameworks:&nbsp;&nbsp;${project.frameworks}</span>`;
+    codeListHtml += `<hr />`;
+    codeListHtml += `<span">Languages:&nbsp;&nbsp;&nbsp;&nbsp;`;
     project.languages.forEach((lang) => {
       codeListHtml += `<span style="color:${languageColors[lang]};">&#11044;&nbsp;</span><span>${lang}</span>&nbsp;&nbsp;`;
     });
-    codeListHtml += `</li>`;
-    codeListHtml += `</ul>`;
+    codeListHtml += `</span>`;
+    codeListHtml += `</div>`;
     codeListHtml += `</div>`;
     codeListHtml += `</div>`;
   });
