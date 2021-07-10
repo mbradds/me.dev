@@ -1,6 +1,7 @@
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min";
 import articleInfo from "./data/articles.json";
-import codingInfo from "./data/programming.json";
+import workCodingInfo from "./data/workCode.json";
+import personalCodingInfo from "./data/personalCode.json";
 
 require("./main.css");
 
@@ -86,7 +87,7 @@ function loadArticles() {
   ).innerHTML = `<strong>${majorCount}</strong> Major Reports released`;
 }
 
-function loadCodingWork() {
+function loadCodingWork(projectList, div) {
   const languageColors = {
     JavaScript: "#f1e05a",
     Python: "#3572A5",
@@ -97,7 +98,7 @@ function loadCodingWork() {
     Shell: "#89e051",
   };
   let codeListHtml = ``;
-  codingInfo.forEach((project) => {
+  projectList.forEach((project) => {
     codeListHtml += `<div class="card mb-4">`;
     codeListHtml += `<div class="card-body">`;
     codeListHtml += `<div class="d-flex justify-content-between">`;
@@ -129,13 +130,14 @@ function loadCodingWork() {
     codeListHtml += `</div>`;
   });
 
-  document.getElementById("work-coding-projects-list").innerHTML = codeListHtml;
+  document.getElementById(div).innerHTML = codeListHtml;
 }
 
 function meOnLoad() {
   window.openTab = openTab;
   loadArticles();
-  loadCodingWork();
+  loadCodingWork(workCodingInfo, "work-coding-projects-list");
+  loadCodingWork(personalCodingInfo, "personal-coding-projects-list");
 }
 
 meOnLoad();
