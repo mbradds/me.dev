@@ -24,5 +24,18 @@
     ],
     "languages": ["JavaScript"],
     "frameworks": ""
+  },
+  {
+    "title": "datestone",
+    "links": [
+      ["GitHub Repository", "https://github.com/mbradds/datestone"],
+      ["NPM", "https://www.npmjs.com/package/datestone"]
+    ],
+    "role": "npm i datestone",
+    "text": [
+      "Inspired by my work with large time-series datasets, I created this package to massively reduce the network transfer size associated with with visualizing huge datasets client side. By taking advantage of predictable time intervals, datestone dynamically adds a date column at run time, helping to cut down the size of a dataset by over 50%."
+    ],
+    "languages": ["TypeScript"],
+    "frameworks": ""
   }
 ]

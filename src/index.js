@@ -96,6 +96,7 @@ function loadCodingWork(projectList, div) {
     HTML: "#e34c26",
     TSQL: "#ccc",
     Shell: "#89e051",
+    TypeScript: "#2b7489",
   };
   let codeListHtml = ``;
   projectList.forEach((project) => {
