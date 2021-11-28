@@ -1,44 +1,46 @@
 {
   "name": "me.dev",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "personal website",
   "sideEffects": false,
+  "type": "module",
   "engines": {
-    "node": "14.x",
-    "npm": "7.x"
+    "node": "16.x",
+    "npm": "8.x"
   },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
+    "build": "webpack --config webpack.prod.js",
     "start": "node server.js",
-    "heroku-postbuild": "webpack",
-    "dev": "webpack serve"
+    "heroku-postbuild": "webpack --config webpack.prod.js",
+    "dev": "webpack serve --config webpack.dev.js"
   },
-  "author": "grant moss",
+  "author": "Grant Moss",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^5.0.2",
+    "bootstrap": "^5.1.3",
     "compression": "^1.7.4",
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.6",
-    "@babel/preset-env": "^7.14.7",
-    "babel-loader": "^8.2.2",
-    "clean-webpack-plugin": "^3.0.0",
-    "core-js": "^3.15.2",
-    "css-loader": "^5.2.6",
-    "eslint": "^7.30.0",
-    "eslint-config-airbnb-base": "^14.2.1",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "core-js": "^3.19.1",
+    "css-loader": "^6.5.1",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
     "handlebars": "^4.7.7",
     "handlebars-loader": "^1.7.1",
-    "html-webpack-plugin": "^5.3.2",
-    "mini-css-extract-plugin": "^2.1.0",
-    "style-loader": "^3.0.0",
-    "webpack": "^5.42.1",
-    "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2"
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0",
+    "webpack-merge": "^5.8.0"
   }
 }

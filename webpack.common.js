@@ -1,26 +1,18 @@
-const path = require("path");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+import path from "path";
+import { fileURLToPath } from "url";
+import { CleanWebpackPlugin } from "clean-webpack-plugin";
+import MiniCssExtractPlugin from "mini-css-extract-plugin";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 
-module.exports = {
-  // mode: "development",
-  mode: "production",
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+export default {
   entry: { index: "./src/index.js" },
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].[contenthash].js",
   },
-
-  devServer: {
-    index: "index.html",
-    compress: true,
-    contentBase: "./dist",
-    publicPath: "/",
-    hot: true,
-  },
-
-  devtool: false,
 
   plugins: [
     new MiniCssExtractPlugin({
@@ -61,6 +53,7 @@ module.exports = {
         test: /\.css$/i,
         exclude: /node_modules/,
         use: [MiniCssExtractPlugin.loader, "css-loader"],
+        sideEffects: true,
       },
       {
         test: /\.css$/,
@@ -72,7 +65,6 @@ module.exports = {
         loader: "handlebars-loader",
         options: {
           precompileOptions: { noEscape: true, strict: true },
-          // runtime: path.resolve(__dirname, "src/components/helpers.js"),
         },
       },
     ],
