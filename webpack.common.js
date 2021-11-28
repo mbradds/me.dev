@@ -1,6 +1,7 @@
 import path from "path";
 import { fileURLToPath } from "url";
 import { CleanWebpackPlugin } from "clean-webpack-plugin";
+import CopyWebpackPlugin from "copy-webpack-plugin";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 
@@ -15,6 +16,14 @@ export default {
   },
 
   plugins: [
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, "src", "assets"),
+          to: path.resolve(__dirname, "dist", "assets"),
+        },
+      ],
+    }),
     new MiniCssExtractPlugin({
       filename: "css/main.[contenthash].css",
     }),

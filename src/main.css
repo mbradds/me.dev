@@ -3,25 +3,42 @@
 .section-hide {
   display: none;
 }
+
 .section-show {
   display: block;
 }
+
 p {
   font-size: 20px !important;
   line-height: 1.65em !important;
 }
+
 .articles-list p {
   line-height: 1.25em !important;
 }
+
 .link-divider {
   border-right: 3px solid gray;
   margin-right: 3px;
 }
+
 .link-divider-last {
   margin-right: 3px;
   margin-left: 3px;
 }
+
 .link-divider span {
   margin-right: 6px;
   margin-left: 3px;
+}
+
+#headshot {
+  float: right;
+  height: 100%;
+  width: 80%;
+}
+
+.feature-btn {
+  width: 100%;
+  height: 100%;
 }

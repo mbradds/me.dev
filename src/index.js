@@ -7,10 +7,7 @@ import "./main.css";
 
 function openTab(evt, sectionName) {
   evt.preventDefault(); // stops the page from autoscrolling to fit tab content.
-  const sections = document.querySelectorAll(".section");
-  const tablinks = document.getElementsByClassName("nav-link");
   const requestedSectionId = evt.target.id;
-
   // unselect work dropdowns when moving to other tabs.
   if (
     requestedSectionId !== "work-articles-tab" &&
@@ -26,24 +23,19 @@ function openTab(evt, sectionName) {
   if (requestedSectionId === "work-articles-tab") {
     document.getElementById("work-software-tab").classList.remove("active");
   }
-
   if (requestedSectionId === "work-software-tab") {
     document.getElementById("work-articles-tab").classList.remove("active");
   }
 
-  sections.forEach((section) => {
-    const s = section;
-    s.style.display = "none";
+  document.querySelectorAll(".section").forEach((section) => {
+    section.style.display = "none";
   });
-  tablinks.forEach((tab) => {
-    const t = tab;
-    t.className = tab.className.replace(" active", "");
+  Array.from(document.getElementsByClassName("nav-link")).forEach((tab) => {
+    tab.className = tab.className.replace(" active", "");
   });
 
   document.getElementById(sectionName).style.display = "block";
-  const e = evt;
-  e.target.className += " active";
-  return false;
+  evt.target.className += " active";
 }
 
 function loadArticles() {
@@ -68,11 +60,7 @@ function loadArticles() {
     }
     articleListHtml += `<hr />
     <div class="d-flex justify-content-between">
-      <a
-        class="mb-0"
-        href="${page.link}"
-        target="_blank"
-      >Read in new tab</a>
+      <a class="mb-0" href="${page.link}" target="_blank">Read in new tab</a>
       <span>Release Date: <strong>${page.releaseDate}</strong></span>
     </div></div>
   </div>`;
@@ -100,10 +88,8 @@ function loadCodingWork(projectList, div) {
   };
   let codeListHtml = ``;
   projectList.forEach((project) => {
-    codeListHtml += `<div class="card mb-4">`;
-    codeListHtml += `<div class="card-body">`;
-    codeListHtml += `<div class="d-flex justify-content-between">`;
-    codeListHtml += `<h3 class="card-title">${project.title}</h3>`;
+    codeListHtml += `<div class="card mb-4"><div class="card-body">`;
+    codeListHtml += `<div class="d-flex justify-content-between"><h3 class="card-title">${project.title}</h3>`;
     codeListHtml += `<div>`;
     project.links.forEach((link, i) => {
       if (i === project.links.length - 1) {
@@ -112,23 +98,17 @@ function loadCodingWork(projectList, div) {
         codeListHtml += `<a class="link-divider" href="${link[1]}" target="_blank"><span>${link[0]}</span></a>`;
       }
     });
-    codeListHtml += `</div>`;
-    codeListHtml += `</div>`;
+    codeListHtml += `</div></div>`;
     codeListHtml += `<h6 class="card-subtitle mb-2 text-muted">${project.role}</h6>`;
     project.text.forEach((p) => {
       codeListHtml += `<p class="card-text"> ${p}</p>`;
     });
-    codeListHtml += `<hr />`;
-    codeListHtml += `<span>Frameworks:&nbsp;&nbsp;${project.frameworks}</span>`;
-    codeListHtml += `<hr />`;
+    codeListHtml += `<hr /><span>Frameworks:&nbsp;&nbsp;${project.frameworks}</span><hr />`;
     codeListHtml += `<span">Languages:&nbsp;&nbsp;&nbsp;&nbsp;`;
     project.languages.forEach((lang) => {
       codeListHtml += `<span style="color:${languageColors[lang]};">&#11044;&nbsp;</span><span>${lang}</span>&nbsp;&nbsp;`;
     });
-    codeListHtml += `</span>`;
-    codeListHtml += `</div>`;
-    codeListHtml += `</div>`;
-    codeListHtml += `</div>`;
+    codeListHtml += `</span></div></div></div>`;
   });
 
   document.getElementById(div).innerHTML = codeListHtml;
