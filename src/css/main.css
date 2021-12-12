@@ -1,10 +1,6 @@
 @import url("bootstrap/dist/css/bootstrap.min.css");
 @import url("responsive.css");
 
-/* #headshot {
-  max-height: 400px;
-} */
-
 .section-hide {
   display: none;
 }
