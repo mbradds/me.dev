@@ -1,6 +1,10 @@
 @import url("bootstrap/dist/css/bootstrap.min.css");
 @import url("responsive.css");
 
+/* #headshot {
+  max-height: 400px;
+} */
+
 .section-hide {
   display: none;
 }
@@ -12,6 +16,10 @@
 p {
   font-size: 20px !important;
   line-height: 1.65em !important;
+}
+
+.nav-button-space {
+  margin-right: 10px;
 }
 
 .articles-list p {
@@ -32,7 +40,6 @@ p {
   margin-right: 6px;
   margin-left: 3px;
 }
-
 
 .feature-btn {
   width: 100%;

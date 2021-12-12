@@ -33,15 +33,7 @@ export default {
       chunks: [`index`],
       chunksSortMode: "auto",
       template: "src/index.hbs",
-      minify: {
-        collapseWhitespace: true,
-        keepClosingSlash: false,
-        removeComments: false,
-        removeRedundantAttributes: false,
-        removeScriptTypeAttributes: false,
-        removeStyleLinkTypeAttributes: false,
-        useShortDoctype: false,
-      },
+      minify: false,
     }),
   ],
 

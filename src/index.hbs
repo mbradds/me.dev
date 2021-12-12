@@ -6,7 +6,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" id="main-tab">Grant Moss</a>
+        <a class="navbar-brand" id="main-tab">gmoss.dev</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -56,7 +56,7 @@
                     id="work-software-tab"
                     href="#work-software"
                     onclick="openTab(event, 'work-software')"
-                    >Software & Data</a
+                    >Software &amp; Data</a
                   >
                 </li>
               </ul>
@@ -82,7 +82,7 @@
             <li class="nav-item">
               <a
                 class="nav-link"
-                id="blog-tab"
+                id="resume-tab"
                 href="#resume"
                 onclick="openTab(event, 'resume')"
                 >Resume</a
@@ -90,10 +90,11 @@
             </li>
           </ul>
         </div>
+        {{!-- start buttons to right of nav --}}
+        <div class="d-flex">
         <button
           type="button"
-          class="btn btn-secondary"
-          style="margin-right: 10px"
+          class="btn btn-secondary nav-button-space"
           onclick=" window.open('https://github.com/mbradds','_blank')"
         >
           <svg
@@ -111,8 +112,7 @@
         </button>
         <button
           type="button"
-          class="btn btn-secondary"
-          style="margin-right: 10px"
+          class="btn btn-secondary nav-button-space"
           onclick=" window.open('https://www.linkedin.com/in/grant-m-a9290391/','_blank')"
         >
           <svg
@@ -146,6 +146,7 @@
             ></path>
           </svg>
         </button>
+        </div>
       </div>
     </nav>
     <div class="section section-show" id="about">
