@@ -12,7 +12,7 @@
     "role": "Creator, lead-designer, lead-developer",
     "text": [
       "Major technology initative adding new data-visualization, interactivity, and safety & environment content to the CER's highly popular pipeline profiles webpages. Previous to this, we relied on tableau (not the right tool for the job) to share data externally. The tableau was very slow, didnt always work, and required alot of manual work. Switching to the JavaScript ecosystem has allowed for previously impossible interactivity, such as allowing the user to find pipeline incidents near them on a leaflet map.",
-      "With over 500 commits, this is my largest software/data project to date. I've worked hard on the code to make it easily maintainable and general purpose into the future."
+      "With over 700 commits, this is my largest software/data project to date. I've worked hard on the code to make it easily maintainable and general purpose into the future."
     ],
     "languages": [
       "JavaScript",
@@ -24,6 +24,24 @@
       "Shell"
     ],
     "frameworks": "Highcharts, Leaflet, Web Experience Toolkit"
+  },
+  {
+    "title": "reconciliation-strategic-priority",
+    "links": [
+      [
+        "GitHub Repository",
+        "https://github.com/mbradds/reconciliation-strategic-priority"
+      ],
+      ["Heroku WebApp", "https://reconciliation-priority.herokuapp.com/"]
+    ],
+    "role": "Lead-developer & designer",
+    "text": [
+      "Reconciliation is one of the Canada Energy Regulator's four strategic priorities. For me, this means applying my skills & innovations towards new products that feature an Indigenous first perspective on pipeline infrastructure projects.",
+      "This web app shows the overlap of regulated pipeline assets with First Nations Reserves as well as Historic Treaty Lands. I've only scratched the surface here, and there is potential to build this out into a major platform.",
+      "The massive scale of pipeline shapefiles makes this analysis difficult. I used python's multiprocessing functionality to split GIS calculations among the considerable number of cores on my computer to make the back-end GIS process run fast."
+    ],
+    "languages": ["JavaScript", "Python", "CSS", "HTML", "Shell"],
+    "frameworks": "Leaflet, Web Experience Toolkit, Python Geopandas"
   },
   {
     "title": "transportation-report",
@@ -62,22 +80,17 @@
     "frameworks": "Highcharts, Web Experience Toolkit"
   },
   {
-    "title": "reconciliation-strategic-priority",
+    "title": "new-cer-project",
     "links": [
-      [
-        "GitHub Repository",
-        "https://github.com/mbradds/reconciliation-strategic-priority"
-      ],
-      ["Heroku WebApp", "https://reconciliation-priority.herokuapp.com/"]
+      ["GitHub Repository", "https://github.com/mbradds/new-cer-project"]
     ],
-    "role": "Lead-developer & designer",
+    "role": "Developer and maintainer",
     "text": [
-      "Reconciliation is one of the Canada Energy Regulator's four strategic priorities. For me, this means applying my skills & innovations towards new products that feature an Indigenous first perspective on pipeline infrastructure.",
-      "This web app shows the overlap of regulated pipeline assets with First Nations Reserves as well as Historic Treaty Lands. I've only scratched the surface here, and there is potential to build this out into a major platform.",
-      "The massive scale of pipeline shapefiles makes this analysis difficult. I used python's multiprocessing functionality to split GIS calculations among the considerable number of cores on my computer to make the back-end GIS process run fast."
+      "One of the hardest parts about learning JavaScript for me was configuring my projects to actually work. This public template repo is the product of countless YouTube and online tutorials on getting started with node.js, npm, and JavaScript.",
+      "My hope is that others, including myself, can use this template when starting a new project to hit the ground running, and remain focused on the code + product design instead of anoying configuration issues."
     ],
-    "languages": ["JavaScript", "Python", "CSS", "HTML", "Shell"],
-    "frameworks": "Leaflet, Web Experience Toolkit, Python Geopandas"
+    "languages": ["CSS", "JavaScript", "Handlebars"],
+    "frameworks": "node.js, npm"
   },
   {
     "title": "ccei-presentation",

@@ -1,0 +1,54 @@
+/* 
+responsive style options 
+*/
+
+/* extra small screen phones (col) */
+@media only screen and (max-width: 576px) {
+  /* h2 {
+        color: orange;
+      } */
+  #headshot {
+    float: none;
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+  }
+}
+
+/* small screen tablet (col-sm) */
+@media only screen and (min-width: 576px) {
+  /* h2 {
+        color: blue;
+      } */
+  #headshot {
+    float: none;
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+  }
+}
+
+/* medium screen */
+@media only screen and (min-width: 768px) {
+  /* h2 {
+        color: red;
+      } */
+  #headshot {
+    float: none;
+  }
+}
+/* large screens */
+@media only screen and (min-width: 992px) {
+  /* h2 {
+        color: green;
+      } */
+  #headshot {
+    float: right;
+  }
+}
+/* extra large screens */
+@media only screen and (min-width: 1200px) {
+  /* h2 {
+          color: green;
+        } */
+}
