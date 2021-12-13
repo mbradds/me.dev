@@ -14,6 +14,21 @@ p {
   line-height: 1.65em !important;
 }
 
+#my-nav-buttons button {
+  max-width: 42px;
+}
+
+.code-card-head {
+  flex-wrap: wrap;
+}
+
+.button-text {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: bolder;
+}
+
 .nav-button-space {
   margin-right: 10px;
 }

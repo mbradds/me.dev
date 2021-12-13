@@ -23,8 +23,8 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/preset-env": "^7.16.4",
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
     "babel-loader": "^8.2.3",
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^10.1.0",

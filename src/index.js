@@ -89,7 +89,7 @@ function loadCodingWork(projectList, div) {
   let codeListHtml = ``;
   projectList.forEach((project) => {
     codeListHtml += `<div class="card mb-4"><div class="card-body">`;
-    codeListHtml += `<div class="d-flex justify-content-between"><h3 class="card-title">${project.title}</h3>`;
+    codeListHtml += `<div class="d-flex justify-content-between code-card-head"><h3 class="card-title">${project.title}</h3>`;
     codeListHtml += `<div>`;
     project.links.forEach((link, i) => {
       if (i === project.links.length - 1) {
