@@ -104,7 +104,7 @@ function loadCodingWork(projectList, div) {
       codeListHtml += `<p class="card-text"> ${p}</p>`;
     });
     codeListHtml += `<hr /><span>Frameworks:&nbsp;&nbsp;${project.frameworks}</span><hr />`;
-    codeListHtml += `<span">Languages:&nbsp;&nbsp;&nbsp;&nbsp;`;
+    codeListHtml += `<span>Languages:&nbsp;&nbsp;&nbsp;&nbsp;</span>`;
     project.languages.forEach((lang) => {
       codeListHtml += `<span style="color:${languageColors[lang]};">&#11044;&nbsp;</span><span>${lang}</span>&nbsp;&nbsp;`;
     });
