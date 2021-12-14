@@ -5,8 +5,13 @@ import CopyWebpackPlugin from "copy-webpack-plugin";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 
+import { resume } from "./src/data/resume.js";
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+const pageData = {};
+pageData.resume = resume;
 
 export default {
   entry: { index: "./src/index.js" },
@@ -22,6 +27,10 @@ export default {
           from: path.resolve(__dirname, "src", "assets"),
           to: path.resolve(__dirname, "dist", "assets"),
         },
+        {
+          from: path.resolve(__dirname, "src", "robots.txt"),
+          to: path.resolve(__dirname, "dist", "robots.txt"),
+        },
       ],
     }),
     new MiniCssExtractPlugin({
@@ -29,6 +38,7 @@ export default {
     }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
+      page: JSON.parse(JSON.stringify(pageData)),
       filename: `index.html`,
       chunks: [`index`],
       chunksSortMode: "auto",
