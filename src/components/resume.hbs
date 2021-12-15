@@ -1,12 +1,11 @@
 <div class="container resume-container">
   <div class="row justify-content-md-center mt-5">
     <div class="col">
-      {{> shared/headerText header="Coming soon!"}}
-       {{!-- <p class="text-muted text-center">Calgary, Alberta</p>
-       <span>{{htmlWebpackPlugin.options.page.resume.workExperience.heading}}</span><br>
-       {{#each htmlWebpackPlugin.options.page.resume.workExperience.list}}
-          <span>{{this.name}}</span><i class="duration">{{this.duration}}</i>
-       {{/each}} --}}
+      {{> shared/headerText header="Grant Moss"}}
+       <p class="text-muted text-center">Calgary, Alberta</p>
+       <p class="text-muted text-center pb-4">grant@gmoss.dev</p>
+       {{> shared/resumeSection text=htmlWebpackPlugin.options.page.resume.education}}
+       {{> shared/resumeSection text=htmlWebpackPlugin.options.page.resume.workExperience}}
     </div>
   </div>
 </div>

@@ -1,0 +1,9 @@
+<span class="fs-3">{{text.heading}}</span><br />
+{{#each text.list}}
+  <span class="fs-5 fw-light">{{this.name}}</span><i class="duration">{{this.duration}}</i>
+  <ul>
+    {{#each this.points}}
+      <li>{{this}}</li>
+    {{/each}}
+  </ul>
+{{/each}}

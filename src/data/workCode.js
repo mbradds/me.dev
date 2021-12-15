@@ -13,7 +13,7 @@ const projectList = [
     ],
     role: "Creator, lead-designer, lead-developer",
     text: [
-      "Major technology initative adding new data-visualization, interactivity, and safety & environment content to the CER's highly popular pipeline profiles webpages. Previous to this, we relied on tableau (not the right tool for the job) to share data externally. The tableau was very slow, didnt always work, and required alot of manual work. Switching to the JavaScript ecosystem has allowed for previously impossible interactivity, such as allowing the user to find pipeline incidents near them on a leaflet map.",
+      "Major technology initative adding new data-visualization, interactivity, and safety &amp; environment content to the CER's highly popular pipeline profiles webpages. Previous to this, we relied on tableau (not the right tool for the job) to share data externally. The tableau was very slow, didnt always work, and required alot of manual work. Switching to the JavaScript ecosystem has allowed for previously impossible interactivity, such as allowing the user to find pipeline incidents near them on a leaflet map.",
       "With over 700 commits, this is my largest software/data project to date. I've worked hard on the code to make it easily maintainable and general purpose into the future.",
     ],
     languages: [
@@ -36,9 +36,9 @@ const projectList = [
       ],
       ["Heroku WebApp", "https://reconciliation-priority.herokuapp.com/"],
     ],
-    role: "Lead-developer & designer",
+    role: "Lead-developer &amp; designer",
     text: [
-      "Reconciliation is one of the Canada Energy Regulator's four strategic priorities. For me, this means applying my skills & innovations towards new products that feature an Indigenous first perspective on pipeline infrastructure projects.",
+      "Reconciliation is one of the Canada Energy Regulator's four strategic priorities. For me, this means applying my skills &amp; innovations towards new products that feature an Indigenous first perspective on pipeline infrastructure projects.",
       "This web app shows the overlap of regulated pipeline assets with First Nations Reserves as well as Historic Treaty Lands. I've only scratched the surface here, and there is potential to build this out into a major platform.",
       "The massive scale of pipeline shapefiles makes this analysis difficult. I used python's multiprocessing functionality to split GIS calculations among the considerable number of cores on my computer to make the back-end GIS process run fast.",
     ],
@@ -73,10 +73,10 @@ const projectList = [
         "https://www.cer-rec.gc.ca/en/data-analysis/energy-commodities/crude-oil-petroleum-products/statistics/weekly-crude-run-summary-data.html",
       ],
     ],
-    role: "Lead-developer & designer",
+    role: "Lead-developer &amp; designer",
     text: [
       "Clean, easy to use dashboard showcasing the CER's crude runs dataset.",
-      "This dashboard is a replacement of a previous version done in tableau. This one is obviously much faster, more responsive & professional. By switching from Tableau to JavaScript, the total network transfer size of the page dropped by 87% (from 4500KB to 596KB), massively improving the experience for users.",
+      "This dashboard is a replacement of a previous version done in tableau. This one is obviously much faster, more responsive &amp; professional. By switching from Tableau to JavaScript, the total network transfer size of the page dropped by 87% (from 4500KB to 596KB), massively improving the experience for users.",
     ],
     languages: ["JavaScript", "CSS", "Handlebars", "Python", "HTML", "Shell"],
     frameworks: "Highcharts, Web Experience Toolkit",
@@ -100,7 +100,7 @@ const projectList = [
       ["GitHub Repository", "https://github.com/mbradds/ccei-presentation"],
       ["Heroku WebApp", "https://ccei-presentation.herokuapp.com/"],
     ],
-    role: "Lead-developer & presenter/speaker",
+    role: "Lead-developer &amp; presenter/speaker",
     text: [
       "Our federal partners (Canada Center for Energy Information, Statistics Canada, and Natural Resources Canada) asked me to provide a presentation on my work with the Highcharts framework. I'm always looking to take these kinds of things to the next level, so I developed a custom website instead of a Power Point presentation!",
     ],
@@ -112,7 +112,7 @@ const projectList = [
     links: [
       ["GitHub Repository", "https://github.com/mbradds/cer_python_training"],
     ],
-    role: "Lead-developer & presenter/speaker",
+    role: "Lead-developer &amp; presenter/speaker",
     text: [
       "My three part python training curriculum starting with basic programming concepts and moving into automated data processing and analytics.",
       "I've enjoyed alot of freedom in my career to innovate and do things my way. Running these kinds of training sessions regularly is my way of giving back. I enjoy the rewarding aspects of teaching and sharing knowledge about the tools that have allowed me to accomplish so much.",

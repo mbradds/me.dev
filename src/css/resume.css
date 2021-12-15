@@ -1,3 +1,7 @@
 .duration {
   float: right;
 }
+
+#resume p {
+  margin-bottom: 0px !important;
+}

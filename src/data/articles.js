@@ -25,7 +25,7 @@ const articleList = [
   },
   {
     name: "Rail transportation of energy commodities has decreased because of lower demand from COVID-19",
-    keyWords: "Rail & energy markets, COVID-19.",
+    keyWords: "Rail &amp; energy markets, COVID-19.",
     note: "",
     link: "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2020/market-snapshot-rail-transportation-energy-commodities-has-decreased-because-lower-demand-from-covid-19.html",
     releaseDate: "2020-05-27",
