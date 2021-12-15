@@ -8,7 +8,7 @@
             class="col alert alert-secondary fs-3"
             role="alert"
             id="minor-articles-count"
-          >
+          ><strong>{{htmlWebpackPlugin.options.page.articles.minorCount}}</strong> Market Snapshots released
           </div>
         </div>
         <div class="col">
@@ -16,11 +16,13 @@
             class="alert alert-success fs-3"
             role="alert"
             id="major-articles-count"
-          >
+          ><strong>{{htmlWebpackPlugin.options.page.articles.majorCount}}</strong> Major Reports released
           </div>
         </div>
       </div>
-      <div id="articles-flags"></div>
+      {{#each htmlWebpackPlugin.options.page.articles.articleInfo}}
+          {{> shared/articles text=this}}
+      {{/each}}
     </div>
   </div>
 </div>
