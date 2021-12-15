@@ -6,12 +6,18 @@ import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 
 import { resume } from "./src/data/resume.js";
+import { personalCode } from "./src/data/personalCode.js";
+import { workCode } from "./src/data/workCode.js";
+import { articles } from "./src/data/articles.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const pageData = {};
 pageData.resume = resume;
+pageData.personalCode = personalCode();
+pageData.workCode = workCode();
+pageData.articles = articles();
 
 export default {
   entry: { index: "./src/index.js" },
@@ -43,7 +49,7 @@ export default {
       chunks: [`index`],
       chunksSortMode: "auto",
       template: "src/index.hbs",
-      minify: false,
+      minify: true,
     }),
   ],
 

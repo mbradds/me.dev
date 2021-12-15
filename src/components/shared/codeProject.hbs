@@ -1,0 +1,26 @@
+<div class="card mb-4">
+  <div class="card-body">
+    <div class="d-flex justify-content-between code-card-head">
+      <h3 class="card-title">{{text.title}}</h3>
+      <div>
+        {{#each text.links}}
+          <a class="link-divider-last" href="{{this.[1]}}" target="_blank"><span
+            >{{this.[0]}}</span></a>
+        {{/each}}
+      </div>
+    </div>
+    <h6 class="card-subtitle mb-2 text-muted">{{text.role}}</h6>
+    <p class="card-text">
+      {{#each text.text}}
+        <p>{{this}}</p>
+      {{/each}}
+    </p>
+    <hr />
+    <span>Frameworks:&nbsp;&nbsp;{{text.frameworks}}</span>
+    <hr />
+    <span>Languages:&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    {{#each text.languages}}
+        <span style="color: {{this.[1]}}">&#11044;&nbsp;</span><span>{{this.[0]}}</span>&nbsp;&nbsp;
+    {{/each}}
+  </div>
+</div>
