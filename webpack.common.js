@@ -4,20 +4,10 @@ import { CleanWebpackPlugin } from "clean-webpack-plugin";
 import CopyWebpackPlugin from "copy-webpack-plugin";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import HtmlWebpackPlugin from "html-webpack-plugin";
-
-import { resume } from "./src/data/resume.js";
-import { personalCode } from "./src/data/personalCode.js";
-import { workCode } from "./src/data/workCode.js";
-import { articles } from "./src/data/articles.js";
+import { pageData } from "./src/pageData.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-const pageData = {};
-pageData.resume = resume;
-pageData.personalCode = personalCode();
-pageData.workCode = workCode();
-pageData.articles = articles();
 
 export default {
   entry: { index: "./src/index.js" },
@@ -44,7 +34,7 @@ export default {
     }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      page: JSON.parse(JSON.stringify(pageData)),
+      page: JSON.parse(JSON.stringify(pageData())),
       filename: `index.html`,
       chunks: [`index`],
       chunksSortMode: "auto",
