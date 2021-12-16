@@ -4,12 +4,18 @@ const projectList = [
   {
     title: "pipeline-profiles",
     links: [
-      ["GitHub Repository", "https://github.com/mbradds/pipeline-profiles"],
-      ["Heroku WebApp", "https://pipeline-profiles.herokuapp.com/"],
-      [
-        "Production Site",
-        "https://www.cer-rec.gc.ca/en/data-analysis/facilities-we-regulate/pipeline-profiles/index.html",
-      ],
+      {
+        display: "GitHub Repository",
+        link: "https://github.com/mbradds/pipeline-profiles",
+      },
+      {
+        display: "Heroku WebApp",
+        link: "https://pipeline-profiles.herokuapp.com/",
+      },
+      {
+        display: "Production Site",
+        link: "https://www.cer-rec.gc.ca/en/data-analysis/facilities-we-regulate/pipeline-profiles/index.html",
+      },
     ],
     role: "Creator, lead-designer, lead-developer",
     text: [
@@ -30,11 +36,14 @@ const projectList = [
   {
     title: "reconciliation-strategic-priority",
     links: [
-      [
-        "GitHub Repository",
-        "https://github.com/mbradds/reconciliation-strategic-priority",
-      ],
-      ["Heroku WebApp", "https://reconciliation-priority.herokuapp.com/"],
+      {
+        display: "GitHub Repository",
+        link: "https://github.com/mbradds/reconciliation-strategic-priority",
+      },
+      {
+        display: "Heroku WebApp",
+        link: "https://reconciliation-priority.herokuapp.com/",
+      },
     ],
     role: "Lead-developer &amp; designer",
     text: [
@@ -48,12 +57,18 @@ const projectList = [
   {
     title: "transportation-report",
     links: [
-      ["GitHub Repository", "https://github.com/mbradds/transportation-report"],
-      ["Github Pages", "https://mbradds.github.io/transportation-report/"],
-      [
-        "Production Site",
-        "https://www.cer-rec.gc.ca/en/data-analysis/facilities-we-regulate/canadas-pipeline-system/2021/index.html",
-      ],
+      {
+        display: "GitHub Repository",
+        link: "https://github.com/mbradds/transportation-report",
+      },
+      {
+        display: "Github Pages",
+        link: "https://mbradds.github.io/transportation-report/",
+      },
+      {
+        display: "Production Site",
+        link: "https://www.cer-rec.gc.ca/en/data-analysis/facilities-we-regulate/canadas-pipeline-system/2021/index.html",
+      },
     ],
     role: "Lead-developer, data-analyst, data-viz designer",
     text: [
@@ -66,12 +81,15 @@ const projectList = [
   {
     title: "crude-runs",
     links: [
-      ["GitHub Repository", "https://github.com/mbradds/crude-runs"],
-      ["Heroku WebApp", "https://crude-runs.herokuapp.com/"],
-      [
-        "Production Site",
-        "https://www.cer-rec.gc.ca/en/data-analysis/energy-commodities/crude-oil-petroleum-products/statistics/weekly-crude-run-summary-data.html",
-      ],
+      {
+        display: "GitHub Repository",
+        link: "https://github.com/mbradds/crude-runs",
+      },
+      { display: "Heroku WebApp", link: "https://crude-runs.herokuapp.com/" },
+      {
+        display: "Production Site",
+        link: "https://www.cer-rec.gc.ca/en/data-analysis/energy-commodities/crude-oil-petroleum-products/statistics/weekly-crude-run-summary-data.html",
+      },
     ],
     role: "Lead-developer &amp; designer",
     text: [
@@ -84,7 +102,10 @@ const projectList = [
   {
     title: "new-cer-project",
     links: [
-      ["GitHub Repository", "https://github.com/mbradds/new-cer-project"],
+      {
+        display: "GitHub Repository",
+        link: "https://github.com/mbradds/new-cer-project",
+      },
     ],
     role: "Developer and maintainer",
     text: [
@@ -97,8 +118,14 @@ const projectList = [
   {
     title: "ccei-presentation",
     links: [
-      ["GitHub Repository", "https://github.com/mbradds/ccei-presentation"],
-      ["Heroku WebApp", "https://ccei-presentation.herokuapp.com/"],
+      {
+        display: "GitHub Repository",
+        link: "https://github.com/mbradds/ccei-presentation",
+      },
+      {
+        display: "Heroku WebApp",
+        link: "https://ccei-presentation.herokuapp.com/",
+      },
     ],
     role: "Lead-developer &amp; presenter/speaker",
     text: [
@@ -110,7 +137,10 @@ const projectList = [
   {
     title: "cer_python_training",
     links: [
-      ["GitHub Repository", "https://github.com/mbradds/cer_python_training"],
+      {
+        display: "GitHub Repository",
+        link: "https://github.com/mbradds/cer_python_training",
+      },
     ],
     role: "Lead-developer &amp; presenter/speaker",
     text: [
@@ -120,6 +150,22 @@ const projectList = [
     ],
     languages: ["Python"],
     frameworks: "Jupyter Notebook",
+  },
+  {
+    title: "ne2",
+    links: [
+      {
+        display: "GitHub Repository",
+        link: "https://github.com/mbradds/ne2",
+      },
+    ],
+    role: "Developer",
+    text: [
+      "Automated ETL for the net energy daily settlement price API, and web scraping with selenium for daily trade volumes from the net energy platform.",
+      "Contains extensive automation for calculating daily spot prices and forward curves used at the CER for price projections, assumptions, and regulatory analysis of Canadian crude oil markets.",
+    ],
+    languages: ["Python"],
+    frameworks: "",
   },
 ];
 

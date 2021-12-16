@@ -11,10 +11,10 @@ const languageColors = {
 
 export function applyColors(projectList) {
   return projectList.map((project) => {
-    project.languages = project.languages.map((lang) => [
-      lang,
-      languageColors[lang],
-    ]);
+    project.languages = project.languages.map((lang) => ({
+      display: lang,
+      color: languageColors[lang],
+    }));
     return project;
   });
 }

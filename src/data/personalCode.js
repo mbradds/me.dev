@@ -4,8 +4,11 @@ const projectList = [
   {
     title: "me.dev",
     links: [
-      ["GitHub Repository", "https://github.com/mbradds/me.dev"],
-      ["Azure Static Website", "https://www.gmoss.dev/"],
+      {
+        display: "GitHub Repository",
+        link: "https://github.com/mbradds/me.dev",
+      },
+      { display: "Azure Static Website", link: "https://www.gmoss.dev/" },
     ],
     role: "This website!",
     text: [
@@ -17,8 +20,11 @@ const projectList = [
   {
     title: "datestone",
     links: [
-      ["GitHub Repository", "https://github.com/mbradds/datestone"],
-      ["NPM", "https://www.npmjs.com/package/datestone"],
+      {
+        display: "GitHub Repository",
+        link: "https://github.com/mbradds/datestone",
+      },
+      { display: "NPM", link: "https://www.npmjs.com/package/datestone" },
     ],
     role: "npm i datestone",
     text: [
@@ -30,8 +36,11 @@ const projectList = [
   {
     title: "highseries",
     links: [
-      ["GitHub Repository", "https://github.com/mbradds/highseries"],
-      ["NPM", "https://www.npmjs.com/package/highseries"],
+      {
+        display: "GitHub Repository",
+        link: "https://github.com/mbradds/highseries",
+      },
+      { display: "NPM", link: "https://www.npmjs.com/package/highseries" },
     ],
     role: "npm i highseries",
     text: [

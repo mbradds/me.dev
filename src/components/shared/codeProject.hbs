@@ -4,8 +4,11 @@
       <h3 class="card-title">{{text.title}}</h3>
       <div>
         {{#each text.links}}
-          <a class="link-divider-last" href="{{this.[1]}}" target="_blank"><span
-            >{{this.[0]}}</span></a>
+          <a
+            class="link-divider-last"
+            href="{{this.link}}"
+            target="_blank"
+          ><span>{{this.display}}</span></a>
         {{/each}}
       </div>
     </div>
@@ -20,7 +23,8 @@
     <hr />
     <span>Languages:&nbsp;&nbsp;&nbsp;&nbsp;</span>
     {{#each text.languages}}
-        <span style="color: {{this.[1]}}">&#11044;&nbsp;</span><span>{{this.[0]}}</span>&nbsp;&nbsp;
+      <span style="color: {{this.color}}">&#11044;&nbsp;</span><span
+      >{{this.display}}</span>&nbsp;&nbsp;
     {{/each}}
   </div>
 </div>
