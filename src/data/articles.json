@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Propane inventories in western Canada at record high for start of heating season",
+    "keyWords": "Propane, storage, COVID-19.",
+    "note": "Take a look at the cool matplotlib charts created in python!",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2020/market-snapshot-propane-inventories-western-canada-record-high-start-heating-season.html",
+    "releaseDate": "2020-11-18",
+    "type": "minor"
+  },
+  {
+    "name": "300th Special Edition – Explore over 5 years’ worth of Snapshots by topic",
+    "keyWords": "Energy Information, trends, special edition.",
+    "note": "Special edition article I wrote to celebrate our success!",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2020/market-snapshot-300-special-edition.html",
+    "releaseDate": "2020-09-02",
+    "type": "minor"
+  },
+  {
+    "name": "Throughput on major oil pipeline systems falls in 2020, temporarily relieving tight capacity constraints out of western Canada",
+    "keyWords": "Export pipeline, crude oil markets, COVID-19.",
+    "note": "",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2020/market-snapshot-throughput-major-oil-pipeline-systems.html",
+    "releaseDate": "2020-08-27",
+    "type": "minor"
+  },
+  {
+    "name": "Rail transportation of energy commodities has decreased because of lower demand from COVID-19",
+    "keyWords": "Rail &amp; energy markets, COVID-19.",
+    "note": "",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2020/market-snapshot-rail-transportation-energy-commodities-has-decreased-because-lower-demand-from-covid-19.html",
+    "releaseDate": "2020-05-27",
+    "type": "minor"
+  },
+  {
+    "name": "B.C. is now the second largest exporter of propane behind Alberta",
+    "keyWords": "Propane, Canada energy exports.",
+    "note": "",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2020/market-snapshot-b-c-is-now-second-largest-exporter-propane-behind-alberta.html",
+    "releaseDate": "2020-05-20",
+    "type": "minor"
+  },
+  {
+    "name": "Weekly average gasoline prices in Canada reach the lowest level since 2008",
+    "keyWords": "COVID-19, personal energy use.",
+    "note": "Cool Tableau vizualization built from web scraped data.",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2020/market-snapshot-weekly-average-gasoline-prices-in-canada-reach-lowest-level-since-2008.html",
+    "releaseDate": "2020-04-22",
+    "type": "minor"
+  },
+  {
+    "name": "Canadian exports of crude oil to destinations other than the United States are mainly from Newfoundland and Labrador’s offshore",
+    "keyWords": "Eastern Canada, offshore drilling, energy exports.",
+    "note": "",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2020/market-snapshot-canadian-exports-crude-oil-destinations-other-than-united-states-are-mainly-from-newfoundland-labradors-offshore.html",
+    "releaseDate": "2020-04-08",
+    "type": "minor"
+  },
+  {
+    "name": "How does the early 2020 crude oil price drop compare to other historic events in global crude oil markets?",
+    "keyWords": "COVID-19, oil prices, energy markets.",
+    "note": "My favorite article I've written. I really like the crude oil price vizualization!",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2020/market-snapshot-how-does-early-2020-crude-oil-price-drop-compare-other-historic-events-in-global-crude-oil-markets.html",
+    "releaseDate": "2020-03-25",
+    "type": "minor"
+  },
+  {
+    "name": "Offshore Newfoundland and Labrador heavy oil production helps increase total crude production to levels last seen in 2009",
+    "keyWords": "Eastern Canada, offshore drilling, energy exports.",
+    "note": "",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2020/market-snapshot-offshore-newfoundland-labrador-heavy-oil-production-helps-increase-total-crude-production-levels-last-seen-in-2009.html",
+    "releaseDate": "2020-03-11",
+    "type": "minor"
+  },
+  {
+    "name": "Western Canadian condensate is getting heavier, and the oil sands are adapting",
+    "keyWords": "Oil sands economics, hydrocarbon engineering.",
+    "note": "Really interesting analysis done in python!",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2020/market-snapshot-western-canadian-condensate-is-getting-heavier-oil-sands-are-adapting.html",
+    "releaseDate": "2020-03-04",
+    "type": "minor"
+  },
+  {
+    "name": "Rail remains important for transporting western Canadian crude oil",
+    "keyWords": "Oil price analysis, curtailment policy.",
+    "note": "",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2019/market-snapshot-rail-remains-important-transporting-western-canadian-crude-oil.html",
+    "releaseDate": "2019-12-04",
+    "type": "minor"
+  },
+  {
+    "name": "Alberta’s production limits impact large oil producers the most",
+    "keyWords": "Oil production analysis, curtailment policy.",
+    "note": "",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2019/market-snapshot-albertas-production-limits-impact-large-oil-producers-most.html",
+    "releaseDate": "2019-10-30",
+    "type": "minor"
+  },
+  {
+    "name": "Where does Canada’s gasoline come from?",
+    "keyWords": "Supply chain analysis, refined petroleum products.",
+    "note": "Released in time for summer 2019 driving season. Used as evidence in the BCUC's Inquiry into Gasoline and Diesel Prices in British Columbia.",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-commodities/crude-oil-petroleum-products/report/2019-gasoline/index.html",
+    "releaseDate": "May 2019",
+    "type": "major"
+  },
+  {
+    "name": "Gasoline pricing and the role of Trans Mountain pipeline in British Columbia's gasoline supply",
+    "keyWords": "Trans Mountain Pipeline economics, gasoline pricing.",
+    "note": "",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2019/market-snapshot-gasoline-pricing-role-trans-mountain-pipeline-in-british-columbias-gasoline-supply.html",
+    "releaseDate": "2019-05-15",
+    "type": "minor"
+  },
+  {
+    "name": "Canada’s 1st refinery in over 30 years comes online near Edmonton, Alberta with greener technology",
+    "keyWords": "Refinery market dynamics, green technology.",
+    "note": "",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2018/market-snapshot-canadas-1st-refinery-in-over-30-years-comes-online-near-edmonton-alberta-with-greener-technology.html",
+    "releaseDate": "2018-07-04",
+    "type": "minor"
+  },
+  {
+    "name": "Canadian gasoline prices rise to highest level in over 3 years",
+    "keyWords": "Gasoline prices, summer driving.",
+    "note": "",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2018/market-snapshot-canadian-gasoline-prices-rise-highest-level-in-over-3-years.html",
+    "releaseDate": "2018-05-30",
+    "type": "minor"
+  },
+  {
+    "name": "Canadian Refinery Overview 2018 – Energy Market Assessment",
+    "keyWords": "Refinery economics, gasoline, diesel, jet fuel.",
+    "note": "My first major report!",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-commodities/crude-oil-petroleum-products/report/2018-refinery-report/index.html",
+    "releaseDate": "April 2018",
+    "type": "major"
+  },
+  {
+    "name": "Natural gas coming into Canada from New York, U.S.",
+    "keyWords": "Shale gas, market competition.",
+    "note": "My first article published as a student! I'm proud of this one, its actually pretty good.",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2018/market-snapshot-natural-gas-coming-into-canada-from-new-york-u-s.html",
+    "releaseDate": "2018-03-14",
+    "type": "minor"
+  }
+]
