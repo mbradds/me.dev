@@ -15,7 +15,7 @@
         "name": "International Exchange - Hong Kong University of Science and Technology",
         "duration": "Sept 2017 - Dec 2017",
         "points": [
-          "Advanced coursework in business intelligence. Learned statistics methods and machine learning for building financial portfolio models",
+          "Advanced coursework in business intelligence. Learned statistics methods and machine learning for building financial portfolio models.",
           "Awarded the Hong Kong-Alberta Young Scholars Exchange Award, the Sandy MacTaggart Award, and the Hong Kong-Canada Business Association Award."
         ]
       }
@@ -29,7 +29,7 @@
         "duration": "Sept 2020 - Present",
         "points": [
           "Lead developer of external facing analysis and web apps used by the public to analyze the safety &amp; environment and regulatory performance of major pipelines.",
-          "2021 External Innovation Award - For developement of Energy Information products in JavaScript"
+          "2021 External Innovation Award - For developement of Energy Information products in JavaScript."
         ]
       },
       {
@@ -40,6 +40,7 @@
           "Maintained expertise in crude oil markets. Assisted with oil sands production modelling, pipeline throughput and utilization analysis, and refined product market monitoring.",
           "Maintained expertise in natural gas liquids markets. Regularly called upon to brief senior staff at the CER and NRCAN on breaking market dev[elopments such as rail blockades and polar vortex winters.",
           "Key analyst for the CER’s participation in the BCUC’s gasoline &amp; diesel price inquiry. Prepared market research on the B.C. fuel supply chain and prepared evidence on the CER’s regulation of the Trans Mountain pipeline.",
+          "Key analyst for the re-design of the CER's Cost Recovery regulations. Developed algorithms and simulations for stress test evaluations of new regulatory approaches for recovering costs from industry.",
           "Designed a data analytics training program featuring sessions on data analysis in python, sql, advanced excel, and tableau. I regularly deliver these sessions to new and experienced staff."
         ]
       },
@@ -51,5 +52,9 @@
         ]
       }
     ]
+  },
+  "skills": {
+    "languages": ["JavaScript", "Python", "SQL", "HTML/CSS", "TypeScript"],
+    "frameworks": ["Azure", "Heroku", "Git", "Tableau", "PowerBI"]
   }
 }

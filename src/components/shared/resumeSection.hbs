@@ -1,6 +1,6 @@
-<span class="fs-3">{{text.heading}}</span><br />
+{{> resumeSectionHeader headerText=text.heading}}
 {{#each text.list}}
-  <span class="fs-5 fw-light">{{this.name}}</span><i class="duration">{{this.duration}}</i>
+  {{> resumeSectionSubHeader subHeaderText=this.name}}<i class="duration">{{this.duration}}</i>
   <ul>
     {{#each this.points}}
       <li>{{this}}</li>

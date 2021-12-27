@@ -1,11 +1,21 @@
 <div class="container resume-container">
   <div class="row justify-content-md-center mt-5">
-    <div class="col">
+    <div class="col mb-5">
       {{> shared/headerText header="Grant Moss"}}
        <p class="text-muted text-center">Calgary, Alberta</p>
        <p class="text-muted text-center pb-4">grant@gmoss.dev</p>
        {{> shared/resumeSection text=htmlWebpackPlugin.options.page.resume.education}}
        {{> shared/resumeSection text=htmlWebpackPlugin.options.page.resume.workExperience}}
+       {{> shared/resumeSectionHeader headerText="Skills"}}
+       {{> shared/resumeSectionSubHeader subHeaderText="Languages"}}<br>
+       {{#each htmlWebpackPlugin.options.page.resume.skills.languages}}
+         <span class="badge bg-primary fs-6">{{this}}</span>
+       {{/each}}
+       <br>
+       {{> shared/resumeSectionSubHeader subHeaderText="Frameworks &amp; Technologies"}}<br>
+       {{#each htmlWebpackPlugin.options.page.resume.skills.frameworks}}
+         <span class="badge bg-primary fs-6">{{this}}</span>
+       {{/each}}
     </div>
   </div>
 </div>
