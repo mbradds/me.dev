@@ -32,6 +32,30 @@
     "frameworks": "Highcharts, Leaflet, Web Experience Toolkit"
   },
   {
+    "title": "community-profiles",
+    "links": [
+      {
+        "display": "GitHub Repository",
+        "link": "https://github.com/mbradds/community-profiles"
+      },
+      {
+        "display": "cp-admin Repository",
+        "link": "https://github.com/mbradds/cp-admin"
+      },
+      {
+        "display": "Production Site",
+        "link": "https://www.iamc-tmx-community-profiles.ca/"
+      }
+    ],
+    "role": "Lead-designer and lead-developer",
+    "text": [
+      "My first major TypeScript project. This is a joint development effort between the IAMC-TMX and the CER to deliver a mobile web app that can be used by Indigenous Inspectors and Monitors in the field.",
+      "The front end mapping functionality is built with leaflet and deployed through an Azure Static Web App, and the apps Indigenous Community data is managed with a Strapi CMS deployed on Azure App Services + Postgresql azure database."
+    ],
+    "languages": ["TypeScript", "Python", "Handlebars", "CSS", "JavaScript"],
+    "frameworks": "Leaflet, Azure"
+  },
+  {
     "title": "reconciliation-strategic-priority",
     "links": [
       {
@@ -46,8 +70,7 @@
     "role": "Lead-developer &amp; designer",
     "text": [
       "Reconciliation is one of the Canada Energy Regulator's four strategic priorities. For me, this means applying my skills &amp; innovations towards new products that feature an Indigenous first perspective on pipeline infrastructure projects.",
-      "This web app shows the overlap of regulated pipeline assets with First Nations Reserves as well as Historic Treaty Lands. I've only scratched the surface here, and there is potential to build this out into a major platform.",
-      "The massive scale of pipeline shapefiles makes this analysis difficult. I used python's multiprocessing functionality to split GIS calculations among the considerable number of cores on my computer to make the back-end GIS process run fast."
+      "This web app shows the overlap of regulated pipeline assets with First Nations Reserves as well as Historic Treaty Lands. I've only scratched the surface here, and there is potential to build this out into a major platform."
     ],
     "languages": ["JavaScript", "Python", "CSS", "HTML", "Shell"],
     "frameworks": "Leaflet, Web Experience Toolkit, Python Geopandas"
