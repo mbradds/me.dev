@@ -1,5 +1,20 @@
 [
   {
+    "title": "fuel-stations",
+    "links": [
+      {
+        "display": "GitHub Repository",
+        "link": "https://github.com/mbradds/fuel-stations"
+      }
+    ],
+    "role": "",
+    "text": [
+      "Full stack web app, flask backend and node js frontend. A simple interface where the user can select a start city, an end city, set their EV's range, and determine if it is possible to make the journey! Range anxiety is a serious issue for EV adoption, and something like this can help people see if their favorite road trips will still be possible with their new EV."
+    ],
+    "languages": ["Python", "TypeScript", "JavaScript", "CSS", "Handlebars"],
+    "frameworks": "Flask"
+  },
+  {
     "title": "me.dev",
     "links": [
       {
