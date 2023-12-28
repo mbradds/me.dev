@@ -16,6 +16,11 @@
        {{#each htmlWebpackPlugin.options.page.resume.skills.frameworks}}
          <span class="badge bg-primary fs-6">{{this}}</span>
        {{/each}}
+       <br>
+       {{> shared/resumeSectionSubHeader subHeaderText="Analysis"}}<br>
+       {{#each htmlWebpackPlugin.options.page.resume.skills.analysis}}
+         <span class="badge bg-primary fs-6">{{this}}</span>
+       {{/each}}
     </div>
   </div>
 </div>

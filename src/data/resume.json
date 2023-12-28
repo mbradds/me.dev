@@ -31,9 +31,12 @@
           "Lead market analyst on Trans Mountain's 2023 Application for the Interim Commencement Date Tolls on the Expanded System",
           "Lead market analyst on Trans Northern's 2022 Application for Approval of Incentive Tolls Settlement Agreement",
           "Maintained expertise in crude oil markets. Assisted with oil sands production modelling, pipeline throughput and utilization analysis, and refined product market monitoring.",
-          "Maintained expertise in natural gas liquids markets. Regularly called upon to brief senior staff at the CER and NRCAN on breaking market developments such as rail blockades and polar vortex winters.",
+          "Maintained expertise in crude oil and natural gas liquids markets. Regularly called upon to brief senior staff at the CER and NRCAN on breaking market developments such as rail blockades and polar vortex winters.",
+          "Hired, trained, and mentored a summer student analyst. Collaborated with the student on several successful publications and energy market analysis projects.",
+          "Contributor to the Energy Futures 2020 report. Assisted in the development of long-term oil sands production and pricing models. Lead developer of the 2023 Energy Futures Data Supplement charts using the R programming language.",
+          "Lead NGL analyst assigned to maintain the CER’s underground LPG inventory statistics and industry contacts. Leveraged industry knowledge and contacts to improve the products quality and reputation.",
           "Key analyst for the CER’s participation in the BCUC’s gasoline &amp; diesel price inquiry. Prepared market research on the B.C. fuel supply chain and prepared evidence on the CER’s regulation of the Trans Mountain pipeline.",
-          "Key analyst for the re-design of the CER's Cost Recovery regulations. Developed algorithms and simulations for stress test evaluations of new regulatory approaches for recovering costs from industry.",
+          "Lead analyst for the re-design of the CER's Cost Recovery regulations. Developed algorithms and simulations for stress test evaluations of new regulatory approaches for recovering costs from industry.",
           "Designed a data analytics training program featuring sessions on data analysis in python, sql, advanced excel, and tableau. I regularly deliver these sessions to new and experienced staff.",
           "Lead developer of external facing analysis and web apps used by the public to analyze the safety &amp; environment and regulatory performance of major pipelines.",
           "2021 External Innovation Award - For developement of Energy Information products in JavaScript."
@@ -49,7 +52,8 @@
     ]
   },
   "skills": {
-    "languages": ["JavaScript", "Python", "SQL", "HTML/CSS", "TypeScript"],
-    "frameworks": ["Azure", "Heroku", "Git", "Tableau", "PowerBI"]
+    "languages": ["TypeScript", "JavaScript", "Python", "R", "SQL", "HTML/CSS"],
+    "frameworks": ["Azure", "Heroku", "Git", "Tableau", "PowerBI", "Machine Learning/scikit-learn"],
+    "analysis": ["Tolls & tariffs regulation", "Legal decision writing", "Commodity markets", "Economics"]
   }
 }
