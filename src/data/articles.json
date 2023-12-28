@@ -1,5 +1,13 @@
 [
   {
+    "name": "Canada’s Pipeline System 2021: Economics of CER-Regulated Infrastructure",
+    "keyWords": "Pipeline Infrstructure, Finance, Economics",
+    "note": "Authored the Financial Integrity of Oil and Gas Pipeline Companies section and developed all the interactive charts in the report. This was the first report at the CER to feature JavaScript based visualizations!",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/facilities-we-regulate/canadas-pipeline-system/2021/index.html",
+    "releaseDate": "2021-07-02",
+    "type": "major"
+  },
+  {
     "name": "Propane inventories in western Canada at record high for start of heating season",
     "keyWords": "Propane, storage, COVID-19.",
     "note": "Take a look at the cool matplotlib charts created in python!",

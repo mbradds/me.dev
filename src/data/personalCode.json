@@ -1,5 +1,20 @@
 [
   {
+    "title": "loan-origination-model",
+    "links": [
+      {
+        "display": "GitHub Repository",
+        "link": "https://github.com/mbradds/loan-origination-model"
+      }
+    ],
+    "role": "",
+    "text": [
+      "Machine learning approach to approving or denying a mortgage load application based on applicant data. Tested several models with advanced features suited for the dataset and problem. The GitHub readme includes an interesting analysis of the ethical implications of machine learning, and a discussion of the model's strengths and limitations."
+    ],
+    "languages": ["Python"],
+    "frameworks": "Jupyter Notebook, scikit-learn"
+  },
+  {
     "title": "fuel-stations",
     "links": [
       {
