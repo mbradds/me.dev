@@ -6,7 +6,7 @@
         "name": "Bcomm, University of Alberta",
         "duration": "Sept 2013 - May 2017",
         "points": [
-          "Finance Major, Operations Management minor, with Distinction",
+          "Finance Major, Operations Management minor, graduated with Distinction",
           "VP - External, Piggy Bankers student club",
           "Floor Coordinator - Lister Hall Students Association"
         ]
@@ -28,9 +28,9 @@
         "name": "Market Analyst, Energy Markets Team-Canada Energy Regulator (CER)",
         "duration": "March 2018 - Present",
         "points": [
-          "Lead market analyst on Trans Mountain's 2023 Application for the Interim Commencement Date Tolls on the Expanded System",
+          "Lead market analyst on Trans Mountain's 2023 Application for the Interim Commencement Date Tolls on the Expanded System.",
           "Lead market analyst on NorthPoint Energy Solutions 2023 fair market access complaint against Manitoba Hydro-Electricity Board.",
-          "Lead market analyst on Trans Northern's 2022 Application for Approval of Incentive Tolls Settlement Agreement",
+          "Lead market analyst on Trans Northern's 2022 Application for Approval of Incentive Tolls Settlement Agreement. Authored a significant portion of Trans-Northern’s reasons for decision on the cost of alternatives and the potential for shippers to leave the system.",
           "Maintained expertise in crude oil markets. Assisted with oil sands production modelling, pipeline throughput and utilization analysis, and refined product market monitoring.",
           "Maintained expertise in natural gas and natural gas liquids markets. Regularly called upon to brief senior staff at the CER and NRCAN on breaking market developments such as pipeline interuptions, rail blockades and polar vortex winters.",
           "Hired, trained, and mentored a summer student analyst. Collaborated with the student on several successful publications and energy market analysis projects.",
@@ -40,21 +40,15 @@
           "Lead analyst for the re-design of the CER's Cost Recovery regulations. Developed algorithms and simulations for stress test evaluations of new regulatory approaches for recovering costs from industry.",
           "Designed a data analytics training program featuring sessions on data analysis in python, sql, advanced excel, and tableau. I regularly deliver these sessions to new and experienced staff.",
           "Lead developer of external facing analysis and web apps used by the public to analyze the safety &amp; environment and regulatory performance of major pipelines.",
-          "2021 External Innovation Award - For developement of Energy Information products in JavaScript."
-        ]
-      },
-      {
-        "name": "Administrative Assistant - Calgary Stampede Parking Department",
-        "duration": "May 2016 - Sept 2016",
-        "points": [
-          "Prepared for Stampede 2016. Trained and managed temporary event staff. Coordinated parking operations during the 10-day event."
+          "2021 External Innovation Award - For developement of Energy Information products in JavaScript.",
+          "Recieved formal training in Python for machine learning, crude oil and natural gas marketing, and petrochemical industry fundamentals."
         ]
       }
     ]
   },
   "skills": {
     "languages": ["TypeScript", "JavaScript", "Python", "R", "SQL", "HTML/CSS"],
-    "frameworks": ["Azure", "Heroku", "Git", "Tableau", "PowerBI", "Machine Learning/scikit-learn"],
+    "frameworks": ["Azure", "Heroku", "Git", "Tableau", "PowerBI", "REST API's", "Machine Learning/scikit-learn"],
     "analysis": ["Tolls & tariffs regulation", "Legal decision writing", "Commodity markets", "Economics"]
   }
 }
