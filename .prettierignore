@@ -1,0 +1,5 @@
+dist
+deploy
+node_modules
+src/assets
+*.hbs

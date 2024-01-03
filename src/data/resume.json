@@ -48,7 +48,20 @@
   },
   "skills": {
     "languages": ["TypeScript", "JavaScript", "Python", "R", "SQL", "HTML/CSS"],
-    "frameworks": ["Azure", "Heroku", "Git", "Tableau", "PowerBI", "REST API's", "Machine Learning/scikit-learn"],
-    "analysis": ["Tolls & tariffs regulation", "Legal decision writing", "Commodity markets", "Economics"]
+    "frameworks": [
+      "Azure",
+      "Heroku",
+      "Git",
+      "Tableau",
+      "PowerBI",
+      "REST API's",
+      "Machine Learning/scikit-learn"
+    ],
+    "analysis": [
+      "Tolls & tariffs regulation",
+      "Legal decision writing",
+      "Commodity markets",
+      "Economics"
+    ]
   }
 }
