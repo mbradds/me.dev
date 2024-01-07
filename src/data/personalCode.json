@@ -15,6 +15,21 @@
     "frameworks": "Jupyter Notebook, scikit-learn"
   },
   {
+    "title": "HackerRank",
+    "links": [
+      {
+        "display": "GitHub Repository",
+        "link": "https://github.com/mbradds/HackerRank"
+      }
+    ],
+    "role": "",
+    "text": [
+      "My solutions to coding challenges from the popular HackerRank platform. Focusing on algorithms, data structures, and problem solving with Python and SQL. I recently completed the gold Python badge!"
+    ],
+    "languages": ["Python", "TSQL"],
+    "frameworks": ""
+  },
+  {
     "title": "fuel-stations",
     "links": [
       {
