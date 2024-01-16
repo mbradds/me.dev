@@ -59,6 +59,15 @@
                     >Software &amp; Data</a
                   >
                 </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    id="rfd-articles-tab"
+                    href="#rfd-articles"
+                    onclick="openTab(event, 'rfd-articles')"
+                    >Reasons for Decision</a
+                  >
+                </li>
               </ul>
             </li>
             <li class="nav-item">
@@ -165,6 +174,9 @@
     </div>
     <div class="section section-hide large-text" id="work-articles">
       {{> components/work-articles}}
+    </div>
+    <div class="section section-hide large-text" id="rfd-articles">
+      {{> components/rfd-articles}}
     </div>
     <div class="section section-hide large-text" id="work-software">
       {{> components/work-software}}

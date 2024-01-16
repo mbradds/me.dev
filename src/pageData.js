@@ -6,6 +6,7 @@ const personalCodeData = require("./data/personalCode.json");
 const workCodeData = require("./data/workCode.json");
 const articleData = require("./data/articles.json");
 const resumeData = require("./data/resume.json");
+const rfdData = require("./data/rfd.json")
 
 function articles(list) {
   let [minorCount, majorCount] = [0, 0];
@@ -16,6 +17,8 @@ function articles(list) {
     } else if (page.type === "major") {
       majorCount += 1;
       page.display = { name: "Major Report", class: "text-success" };
+    } else if (page.type === "rfd") {
+      page.display = { name: "Reasons for Decision", class: "text-warning" };
     }
     return page;
   });
@@ -28,5 +31,6 @@ export function pageData() {
   htmlText.personalCode = applyColors(personalCodeData);
   htmlText.workCode = applyColors(workCodeData);
   htmlText.articles = articles(articleData);
+  htmlText.rfd = articles(rfdData);
   return htmlText;
 }

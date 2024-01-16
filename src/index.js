@@ -22,6 +22,9 @@ function openTab(evt, sectionName) {
   if (requestedSectionId === "work-software-tab") {
     document.getElementById("work-articles-tab").classList.remove("active");
   }
+  if (requestedSectionId === "rfd-articles-tab") {
+    document.getElementById("rfd-articles-tab").classList.remove("active");
+  }
 
   document.querySelectorAll(".section").forEach((section) => {
     section.style.display = "none";
