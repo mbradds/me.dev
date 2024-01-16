@@ -6,7 +6,7 @@ const personalCodeData = require("./data/personalCode.json");
 const workCodeData = require("./data/workCode.json");
 const articleData = require("./data/articles.json");
 const resumeData = require("./data/resume.json");
-const rfdData = require("./data/rfd.json")
+const rfdData = require("./data/rfd.json");
 
 function articles(list) {
   let [minorCount, majorCount] = [0, 0];

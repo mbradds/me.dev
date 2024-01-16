@@ -51,7 +51,10 @@
         "display": "GitHub Repository",
         "link": "https://github.com/mbradds/me.dev"
       },
-      { "display": "Azure Static Website", "link": "https://www.gmoss.dev/" }
+      {
+        "display": "Azure Static Website",
+        "link": "https://www.gmoss.dev/"
+      }
     ],
     "role": "This website!",
     "text": [
@@ -67,7 +70,10 @@
         "display": "GitHub Repository",
         "link": "https://github.com/mbradds/datestone"
       },
-      { "display": "NPM", "link": "https://www.npmjs.com/package/datestone" }
+      {
+        "display": "NPM",
+        "link": "https://www.npmjs.com/package/datestone"
+      }
     ],
     "role": "npm i datestone",
     "text": [
@@ -83,7 +89,10 @@
         "display": "GitHub Repository",
         "link": "https://github.com/mbradds/highseries"
       },
-      { "display": "NPM", "link": "https://www.npmjs.com/package/highseries" }
+      {
+        "display": "NPM",
+        "link": "https://www.npmjs.com/package/highseries"
+      }
     ],
     "role": "npm i highseries",
     "text": [
