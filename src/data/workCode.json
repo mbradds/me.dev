@@ -1,5 +1,29 @@
 [
   {
+    "title": "community-profiles",
+    "links": [
+      {
+        "display": "GitHub Repository",
+        "link": "https://github.com/mbradds/community-profiles"
+      },
+      {
+        "display": "cp-admin Repository",
+        "link": "https://github.com/mbradds/cp-admin"
+      },
+      {
+        "display": "Production Site",
+        "link": "https://www.iamc-tmx-community-profiles.ca/"
+      }
+    ],
+    "role": "Lead-developer, lead-designer, and project manager",
+    "text": [
+      "My first major TypeScript project. This is a joint development effort between the IAMC-TMX and the CER to deliver a mobile web app that can be used by Indigenous Inspectors and Monitors in the field.",
+      "The front end mapping functionality is built with leaflet and deployed through an Azure Static Web App, and the apps Indigenous Community data is managed with a Strapi CMS deployed on Azure App Services + Postgresql azure database."
+    ],
+    "languages": ["TypeScript", "Python", "Handlebars", "CSS", "JavaScript"],
+    "frameworks": "Leaflet, Azure"
+  },
+  {
     "title": "pipeline-profiles",
     "links": [
       {
@@ -32,72 +56,23 @@
     "frameworks": "Highcharts, Leaflet, Web Experience Toolkit"
   },
   {
-    "title": "community-profiles",
+    "title": "Energy Supply and Demand Projections to 2050",
     "links": [
       {
         "display": "GitHub Repository",
-        "link": "https://github.com/mbradds/community-profiles"
-      },
-      {
-        "display": "cp-admin Repository",
-        "link": "https://github.com/mbradds/cp-admin"
+        "link": "https://github.com/mbradds/ef-2023-supplement"
       },
       {
         "display": "Production Site",
-        "link": "https://www.iamc-tmx-community-profiles.ca/"
+        "link": "https://www.cer-rec.gc.ca/en/data-analysis/canada-energy-future/2023-data-supplement/"
       }
     ],
-    "role": "Lead-designer and lead-developer",
+    "role": "Lead-developer &amp; data-viz designer",
     "text": [
-      "My first major TypeScript project. This is a joint development effort between the IAMC-TMX and the CER to deliver a mobile web app that can be used by Indigenous Inspectors and Monitors in the field.",
-      "The front end mapping functionality is built with leaflet and deployed through an Azure Static Web App, and the apps Indigenous Community data is managed with a Strapi CMS deployed on Azure App Services + Postgresql azure database."
+      "Created the visualizations used in the CER's 2023 Energy Futures Data Supplement to display the energy model outputs and analysis of changes to Canada's energy systems out to 2050. Topics include energy demand, electricity, and oil and natural gas production."
     ],
-    "languages": ["TypeScript", "Python", "Handlebars", "CSS", "JavaScript"],
-    "frameworks": "Leaflet, Azure"
-  },
-  {
-    "title": "reconciliation-strategic-priority",
-    "links": [
-      {
-        "display": "GitHub Repository",
-        "link": "https://github.com/mbradds/reconciliation-strategic-priority"
-      },
-      {
-        "display": "Heroku WebApp",
-        "link": "https://reconciliation-priority.herokuapp.com/"
-      }
-    ],
-    "role": "Lead-developer &amp; designer",
-    "text": [
-      "Reconciliation is one of the Canada Energy Regulator's four strategic priorities. For me, this means applying my skills &amp; innovations towards new products that feature an Indigenous first perspective on pipeline infrastructure projects.",
-      "This web app shows the overlap of regulated pipeline assets with First Nations Reserves as well as Historic Treaty Lands. I've only scratched the surface here, and there is potential to build this out into a major platform."
-    ],
-    "languages": ["JavaScript", "Python", "CSS", "HTML", "Shell"],
-    "frameworks": "Leaflet, Web Experience Toolkit, Python Geopandas"
-  },
-  {
-    "title": "transportation-report",
-    "links": [
-      {
-        "display": "GitHub Repository",
-        "link": "https://github.com/mbradds/transportation-report"
-      },
-      {
-        "display": "Github Pages",
-        "link": "https://mbradds.github.io/transportation-report/"
-      },
-      {
-        "display": "Production Site",
-        "link": "https://www.cer-rec.gc.ca/en/data-analysis/facilities-we-regulate/canadas-pipeline-system/2021/index.html"
-      }
-    ],
-    "role": "Lead-developer, data-analyst, data-viz designer",
-    "text": [
-      "My first major JavaScript/web-development project. This was a major initiative, and the first report released by the CER to feature JavaScript based interactive charts.",
-      "With 27 individual dashboards, many featuring advanced functionaltiy with multiple charts, maps, and filters, this one was a challenge. I put in alot of effort to ensure that the charts loaded fast in both official languages."
-    ],
-    "languages": ["JavaScript", "HTML", "Python", "CSS", "Shell", "TSQL"],
-    "frameworks": "Highcharts, Web Experience Toolkit"
+    "languages": ["R"],
+    "frameworks": ""
   },
   {
     "title": "crude-runs",
@@ -122,6 +97,69 @@
     ],
     "languages": ["JavaScript", "CSS", "Handlebars", "Python", "HTML", "Shell"],
     "frameworks": "Highcharts, Web Experience Toolkit"
+  },
+  {
+    "title": "gas-production",
+    "links": [
+      {
+        "display": "GitHub Repository",
+        "link": "https://github.com/mbradds/gas_production"
+      },
+      {
+        "display": "Production Site",
+        "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-commodities/natural-gas/statistics/marketable-natural-gas-production-in-canada.html"
+      }
+    ],
+    "role": "Lead-developer",
+    "text": [
+      "Automated calculations for marketable natural gas production in Canada. Built on top of web scraped data from each province and territory."
+    ],
+    "languages": ["TSQL"],
+    "frameworks": ""
+  },
+  {
+    "title": "Canada’s Pipeline System 2021: Economics of CER-Regulated Infrastructure",
+    "links": [
+      {
+        "display": "GitHub Repository",
+        "link": "https://github.com/mbradds/transportation-report"
+      },
+      {
+        "display": "Github Pages",
+        "link": "https://mbradds.github.io/transportation-report/"
+      },
+      {
+        "display": "Production Site",
+        "link": "https://www.cer-rec.gc.ca/en/data-analysis/facilities-we-regulate/canadas-pipeline-system/2021/index.html"
+      }
+    ],
+    "role": "Lead-developer, data-analyst, data-viz designer",
+    "text": [
+      "My first major JavaScript/web-development project. This was a major initiative, and the first report released by the CER to feature JavaScript based interactive charts.",
+      "With 27 individual dashboards, many featuring advanced functionaltiy with multiple charts, maps, and filters, this one was a challenge. I put in alot of effort to ensure that the charts loaded fast in both official languages."
+    ],
+    "languages": ["JavaScript", "HTML", "Python", "CSS", "Shell", "TSQL"],
+    "frameworks": "Highcharts, Web Experience Toolkit"
+  },
+  {
+    "title": "reconciliation-strategic-priority",
+    "links": [
+      {
+        "display": "GitHub Repository",
+        "link": "https://github.com/mbradds/reconciliation-strategic-priority"
+      },
+      {
+        "display": "Heroku WebApp",
+        "link": "https://reconciliation-priority.herokuapp.com/"
+      }
+    ],
+    "role": "Lead-developer &amp; designer",
+    "text": [
+      "Reconciliation is one of the Canada Energy Regulator's four strategic priorities. For me, this means applying my skills &amp; innovations towards new products that feature an Indigenous first perspective on pipeline infrastructure projects.",
+      "This web app shows the overlap of regulated pipeline assets with First Nations Reserves as well as Historic Treaty Lands. I've only scratched the surface here, and there is potential to build this out into a major platform."
+    ],
+    "languages": ["JavaScript", "Python", "CSS", "HTML", "Shell"],
+    "frameworks": "Leaflet, Web Experience Toolkit, Python Geopandas"
   },
   {
     "title": "new-cer-project",

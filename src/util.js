@@ -7,6 +7,7 @@ const languageColors = {
   TSQL: "#ccc",
   Shell: "#89e051",
   TypeScript: "#2b7489",
+  R: "#198CE7",
 };
 
 export function applyColors(projectList) {
