@@ -3,7 +3,7 @@
     "heading": "Education",
     "list": [
       {
-        "name": "Bcomm, University of Alberta",
+        "name": "Bcom, University of Alberta",
         "duration": "Sept 2013 - May 2017",
         "points": [
           "Finance Major, Operations Management minor, graduated with Distinction. 3.6/4.0 final two-year GPA.",
@@ -28,18 +28,18 @@
         "name": "Market Analyst, Energy Markets Team-Canada Energy Regulator (CER)",
         "duration": "March 2018 - Present",
         "points": [
-          "Lead market analyst on Trans Mountain's 2023 Application for the Interim Commencement Date Tolls on the Expanded System.",
-          "Lead market analyst on NorthPoint Energy Solutions 2023 fair market access complaint against Manitoba Hydro-Electricity Board.",
-          "Lead market analyst on Trans Northern's 2022 Application for Approval of Incentive Tolls Settlement Agreement. Authored a significant portion of Trans-Northern’s reasons for decision on the cost of alternatives and the potential for shippers to leave the system.",
-          "Maintained expertise in crude oil markets. Assisted with oil sands production modelling, pipeline throughput and utilization analysis, and refined product market monitoring.",
-          "Maintained expertise in natural gas and natural gas liquids markets. Regularly called upon to brief senior staff at the CER and NRCAN on breaking market developments such as pipeline interuptions, rail blockades and polar vortex winters.",
+          "Lead market analyst on Trans Northern’s 2022 contested toll design hearing. Wrote the longest and most critical section of the decision that decided the outcome in favor of Trans Northern & Imperial Oil vs Suncor.",
+          "Lead market analyst on Trans Mountain’s 2023 hearing for tolls on the new TMX system. Evaluated the impacts on the industry because of higher-than-expected pipeline tolls.",
+          "Lead market analyst on NorthPoint Energy Solutions Complaint against Manitoba Hydro-Electricity Board.Evaluated electricity market data and contracts to investigate the ongoing dispute.",
+          "Lead developer and designer of the Community Profiles web application and back-end database and API. Utilized the latest open-source tech and programming languages to create a mapping application used by Indigenous inspectors working near the Trans Mountain Pipeline. Presented the technology to the CEO, board of directors, and external indigenous groups.",
+          "Co-designer and contributor to the CER’s energy data database, including a cloud python code base for daily automated web scraping of 150+ energy data sources including the EIA, StatsCan, and natural gas pipeline data.",
+          "Lead designer and developer of the Canada Energy Regulator’s (CER) pipeline profiles technology platform, an entirely open-source software project capable of deploying 26+ web pages with custom JavaScript visualizations and analytics on pipeline and commodity market data.",
           "Hired, trained, and mentored a summer student analyst. Collaborated with the student on several successful publications and energy market analysis projects.",
-          "Contributor to the Energy Futures 2020 report. Assisted in the development of long-term oil sands production and pricing models. Lead developer of the 2023 Energy Futures Data Supplement charts using the R programming language.",
-          "Lead NGL analyst assigned to maintain the CER’s underground LPG inventory statistics and industry contacts. Leveraged industry knowledge and contacts to improve the products quality and reputation.",
+          "Key contributor to the Energy Futures 2020 report. Assisted in the development of long-term oil sands production and pricing models. Lead developer of the 2023 Energy Futures Data Supplement charts using the R programming language.",
+          "Significant experience with crude oil pricing and markets. Utilized the Refinitiv platform and its Python API to integrate crude price data into databases, models, and visualizations. Utilized the One Exchange trading platform and pricing data for market analysis, including creating forward curves, calculating implied prices,and monitoring market events. Assisted with government responses to major market events including pipeline shutdowns, court decisions, COVID, and the energy transition.",
           "Key analyst for the CER’s participation in the BCUC’s gasoline &amp; diesel price inquiry. Prepared market research on the B.C. fuel supply chain and prepared evidence on the CER’s regulation of the Trans Mountain pipeline.",
           "Lead analyst for the re-design of the CER's Cost Recovery regulations. Developed algorithms and simulations for stress test evaluations of new regulatory approaches for recovering costs from industry.",
-          "Designed a data analytics training program featuring sessions on data analysis in python, sql, advanced excel, and tableau. I regularly deliver these sessions to new and experienced staff.",
-          "Lead developer of external facing analysis and web apps used by the public to analyze the safety &amp; environment and regulatory performance of major pipelines.",
+          "Designed a data analytics training program featuring sessions on data analysis in Python, SQL, advanced Excel, and Tableau. I regularly deliver these sessions to new and experienced staff.",
           "2021 External Innovation Award - For developement of Energy Information products in JavaScript.",
           "Recieved formal training in Python for machine learning, crude oil and natural gas marketing, and petrochemical industry fundamentals."
         ]
