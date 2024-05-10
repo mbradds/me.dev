@@ -1,5 +1,20 @@
 [
   {
+    "title": "trans-mountain-tolls-model",
+    "links": [
+      {
+        "display": "GitHub Repository",
+        "link": "https://github.com/mbradds/trans-mountain-tolls-model"
+      }
+    ],
+    "role": "",
+    "text": [
+      "Data analysis and linear model proving a strong association between pipeline tolls on the Trans Mountain System and gasoline prices in Vancouver, contrary to assertions by Trans Mountain that their tolls do not influence gasoline prices in the Vancouver market."
+    ],
+    "languages": ["R"],
+    "frameworks": "Tidyverse"
+  },
+  {
     "title": "loan-origination-model",
     "links": [
       {

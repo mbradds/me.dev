@@ -1,7 +1,15 @@
 [
   {
+    "name": "Trans Mountain Expansion - Impacts on Canadian Crude Oil Markets",
+    "keyWords": "TMX",
+    "note": "In-depth, easy to understand analysis on the impact of the newly commissioned Trans Mountain Expanded System on Canadian oil markets. Cited by major news outlets including Reuters, Bloomberg, CBC, and the Globe and Mail.",
+    "link": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2024/market-snapshot-canadas-oil-pipeline-capacity-2024.html",
+    "releaseDate": "2024-05-08",
+    "type": "minor"
+  },
+  {
     "name": "Canada’s Pipeline System 2021: Economics of CER-Regulated Infrastructure",
-    "keyWords": "Pipeline Infrstructure, Finance, Economics",
+    "keyWords": "Pipeline Infrastructure, Finance, Economics",
     "note": "Authored the Financial Integrity of Oil and Gas Pipeline Companies section and developed all the interactive charts in the report. This was the first report at the CER to feature JavaScript based visualizations!",
     "link": "https://www.cer-rec.gc.ca/en/data-analysis/facilities-we-regulate/canadas-pipeline-system/2021/index.html",
     "releaseDate": "2021-07-02",
